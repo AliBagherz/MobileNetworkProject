@@ -1,0 +1,1627 @@
+--------- beginning of main
+07-07 15:18:20.124   217   217 I redis   : type=1400 audit(0.0:877): avc: denied { read } for path="socket:[11975]" dev="sockfs" ino=11975 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:18:20.124   217   217 I redis   : type=1400 audit(0.0:878): avc: denied { write } for path="socket:[11975]" dev="sockfs" ino=11975 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:18:20.124   485   485 I vinput  : type=1400 audit(0.0:879): avc: denied { read } for path="socket:[15443]" dev="sockfs" ino=15443 scontext=u:r:vinput:s0 tcontext=u:r:vinput:s0 tclass=tcp_socket permissive=1
+07-07 15:18:20.208   220   252 W genymotion_audio: Not supplying enough data to HAL, expected position 309044 , only wrote 308880
+07-07 15:18:21.403  2111  2140 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+--------- beginning of system
+07-07 15:18:21.403   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@8b9889b
+07-07 15:18:21.400   529   529 I system_server: type=1400 audit(0.0:880): avc: denied { write } for name="timerslack_ns" dev="proc" ino=27082 scontext=u:r:system_server:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:18:21.428   529   650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-07 15:18:21.744  2138  2138 I su      : type=1400 audit(0.0:881): avc: denied { dac_override } for capability=1 scontext=u:r:su_daemon:s0 tcontext=u:r:su_daemon:s0 tclass=capability permissive=1
+07-07 15:18:21.744  2138  2138 I su      : type=1400 audit(0.0:882): avc: denied { remove_name } for name=".socket2138" dev="tmpfs" ino=26286 scontext=u:r:su_daemon:s0 tcontext=u:object_r:device:s0 tclass=dir permissive=1
+07-07 15:18:21.744  2138  2138 I su      : type=1400 audit(0.0:883): avc: denied { unlink } for name=".socket2138" dev="tmpfs" ino=26286 scontext=u:r:su_daemon:s0 tcontext=u:object_r:device:s0 tclass=sock_file permissive=1
+07-07 15:18:21.744  2138  2138 I su      : type=1400 audit(0.0:884): avc: denied { setuid } for capability=7 scontext=u:r:su_daemon:s0 tcontext=u:r:su_daemon:s0 tclass=capability permissive=1
+07-07 15:18:21.744  2138  2138 I su      : type=1400 audit(0.0:885): avc: denied { setgid } for capability=6 scontext=u:r:su_daemon:s0 tcontext=u:r:su_daemon:s0 tclass=capability permissive=1
+07-07 15:18:21.744  2138  2138 I su      : type=1400 audit(0.0:886): avc: denied { execute } for name="sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:18:21.744  2138  2138 I su      : type=1400 audit(0.0:887): avc: denied { read open } for path="/system/bin/sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:18:21.744  2138  2138 I su      : type=1400 audit(0.0:888): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:18:21.744  2182  2182 I su      : type=1400 audit(0.0:889): avc: denied { execute } for name="app_process32" dev="sda6" ino=338 scontext=u:r:su_daemon:s0 tcontext=u:object_r:zygote_exec:s0 tclass=file permissive=1
+07-07 15:18:21.744  2182  2182 I su      : type=1400 audit(0.0:890): avc: denied { read open } for path="/system/bin/app_process32" dev="sda6" ino=338 scontext=u:r:su_daemon:s0 tcontext=u:object_r:zygote_exec:s0 tclass=file permissive=1
+07-07 15:18:21.744  2138  2138 I sh      : type=1400 audit(0.0:891): avc: denied { getattr } for path="/system/bin/sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:18:21.744  2182  2182 I su      : type=1400 audit(0.0:892): avc: denied { execute_no_trans } for path="/system/bin/app_process32" dev="sda6" ino=338 scontext=u:r:su_daemon:s0 tcontext=u:object_r:zygote_exec:s0 tclass=file permissive=1
+07-07 15:18:21.744  2182  2182 I app_process: type=1400 audit(0.0:893): avc: denied { getattr } for path="/system/bin/app_process32" dev="sda6" ino=338 scontext=u:r:su_daemon:s0 tcontext=u:object_r:zygote_exec:s0 tclass=file permissive=1
+07-07 15:18:21.744  2138  2138 I sh      : type=1400 audit(0.0:894): avc: denied { use } for path="pipe:[27964]" dev="pipefs" ino=27964 ioctlcmd=5401 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=fd permissive=1
+07-07 15:18:21.744  2138  2138 I sh      : type=1400 audit(0.0:895): avc: denied { ioctl } for path="pipe:[27964]" dev="pipefs" ino=27964 ioctlcmd=5401 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=fifo_file permissive=1
+07-07 15:18:21.744  2138  2138 I sh      : type=1400 audit(0.0:896): avc: denied { getattr } for path="pipe:[27964]" dev="pipefs" ino=27964 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=fifo_file permissive=1
+07-07 15:18:21.744  2138  2138 I sh      : type=1400 audit(0.0:897): avc: denied { getattr } for path="/data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86/liblib3c.so" dev="sdb3" ino=39 scontext=u:r:su_daemon:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=1
+07-07 15:18:21.744  2138  2138 I sh      : type=1400 audit(0.0:898): avc: denied { execute } for name="liblib3c.so" dev="sdb3" ino=39 scontext=u:r:su_daemon:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=1
+07-07 15:18:21.744  2183  2183 I sh      : type=1400 audit(0.0:899): avc: denied { read open } for path="/data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86/liblib3c.so" dev="sdb3" ino=39 scontext=u:r:su_daemon:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=1
+07-07 15:18:21.744  2183  2183 I sh      : type=1400 audit(0.0:900): avc: denied { execute_no_trans } for path="/data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86/liblib3c.so" dev="sdb3" ino=39 scontext=u:r:su_daemon:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=1
+07-07 15:18:21.748  2184  2184 I liblib3c.so: type=1400 audit(0.0:901): avc: denied { read } for name="su" dev="sda6" ino=2766 scontext=u:r:su_daemon:s0 tcontext=u:object_r:su_exec:s0 tclass=file permissive=1
+07-07 15:18:21.748  2184  2184 I liblib3c.so: type=1400 audit(0.0:902): avc: denied { open } for path="/system/xbin/su" dev="sda6" ino=2766 scontext=u:r:su_daemon:s0 tcontext=u:object_r:su_exec:s0 tclass=file permissive=1
+07-07 15:18:21.748  2184  2184 I liblib3c.so: type=1400 audit(0.0:903): avc: denied { getattr } for path="/system/xbin/su" dev="sda6" ino=2766 scontext=u:r:su_daemon:s0 tcontext=u:object_r:su_exec:s0 tclass=file permissive=1
+07-07 15:18:21.748  2184  2184 I liblib3c.so: type=1400 audit(0.0:904): avc: denied { execute } for name="su" dev="sda6" ino=2766 scontext=u:r:su_daemon:s0 tcontext=u:object_r:su_exec:s0 tclass=file permissive=1
+07-07 15:18:21.748  2184  2184 I liblib3c.so: type=1400 audit(0.0:905): avc: denied { execute_no_trans } for path="/system/xbin/su" dev="sda6" ino=2766 scontext=u:r:su_daemon:s0 tcontext=u:object_r:su_exec:s0 tclass=file permissive=1
+07-07 15:18:21.756  2111  2128 W 3c.lib  : Got root access, resetting attempts
+07-07 15:18:21.756  2111  2144 W zygote  : Long monitor contention with owner Thread-2 (2128) at java.util.ArrayList lib3c.lib3c.runmulti(java.lang.String)(:-2) waiters=0 in boolean lib3c.lib3c.B() for 3.762s
+07-07 15:18:21.756  2111  2128 W 3c.app.tb: Removing shortcut Freeze: no log permission
+07-07 15:18:21.756  2111  2146 W zygote  : Long monitor contention with owner Thread-2 (2128) at java.util.ArrayList lib3c.lib3c.runmulti(java.lang.String)(:-2) waiters=1 in boolean lib3c.lib3c.B() for 3.762s
+07-07 15:18:21.756  2111  2143 W zygote  : Long monitor contention with owner Thread-2 (2128) at java.util.ArrayList lib3c.lib3c.runmulti(java.lang.String)(:-2) waiters=2 in boolean lib3c.lib3c.B() for 3.744s
+07-07 15:18:21.757  2111  2144 W 3c.app.tb: Removing shortcut Freeze: no log permission
+07-07 15:18:21.757  2111  2128 W 3c.app.tb: Removing shortcut Backup: no log permission
+07-07 15:18:21.757  2111  2146 W 3c.app.tb: Removing shortcut Freeze: no log permission
+07-07 15:18:21.757  2111  2146 W 3c.app.tb: Removing shortcut Backup: no log permission
+07-07 15:18:21.757  2111  2128 W 3c.app.tb: Removing shortcut Restore: no log permission
+07-07 15:18:21.757  2111  2146 W 3c.app.tb: Removing shortcut Restore: no log permission
+07-07 15:18:21.757  2111  2144 W 3c.app.tb: Removing shortcut Backup: no log permission
+07-07 15:18:21.757  2111  2128 W 3c.app.tb: Removing shortcut Force-stop: no log permission
+07-07 15:18:21.757  2111  2144 W 3c.app.tb: Removing shortcut Restore: no log permission
+07-07 15:18:21.757  2111  2146 W 3c.app.tb: Removing shortcut Force-stop: no log permission
+07-07 15:18:21.757  2111  2146 W 3c.app.tb: Removing shortcut Kill: no log permission
+07-07 15:18:21.757  2111  2128 W 3c.app.tb: Removing shortcut Kill: no log permission
+07-07 15:18:21.758  2111  2144 W 3c.app.tb: Removing shortcut Force-stop: no log permission
+07-07 15:18:21.758  2111  2128 W 3c.app.tb: Removing shortcut Crystallize: no log permission
+07-07 15:18:21.758  2111  2128 W 3c.app.tb: Removing shortcut Freeze: no log permission
+07-07 15:18:21.758  2111  2144 W 3c.app.tb: Removing shortcut Kill: no log permission
+07-07 15:18:21.758  2111  2128 W 3c.app.tb: Removing shortcut Unfreeze: no log permission
+07-07 15:18:21.758  2111  2144 W 3c.app.tb: Removing shortcut Crystallize: no log permission
+07-07 15:18:21.758  2111  2146 W 3c.app.tb: Removing shortcut Crystallize: no log permission
+07-07 15:18:21.758  2111  2143 D 3c.app.tb: Disabling clear cache accessibility service
+07-07 15:18:21.758  2111  2128 W 3c.app.tb: Removing shortcut Backup: no log permission
+07-07 15:18:21.758  2111  2146 W 3c.app.tb: Removing shortcut Freeze: no log permission
+07-07 15:18:21.758   529   540 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:21.758   529   540 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:21.758  2111  2128 W 3c.app.tb: Removing shortcut Restore: no log permission
+07-07 15:18:21.758  2111  2143 D 3c.app.tb: Disabling clear cache service
+07-07 15:18:21.758  2111  2144 W 3c.app.tb: Removing shortcut Freeze: no log permission
+07-07 15:18:21.758   529   795 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:21.758   529   795 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:21.758  2111  2146 W 3c.app.tb: Removing shortcut Unfreeze: no log permission
+07-07 15:18:21.758  2111  2144 W 3c.app.tb: Removing shortcut Unfreeze: no log permission
+07-07 15:18:21.758  2111  2146 W 3c.app.tb: Removing shortcut Backup: no log permission
+07-07 15:18:21.758  2111  2144 W 3c.app.tb: Removing shortcut Backup: no log permission
+07-07 15:18:21.758  2111  2143 D 3c.app.tb: Disabling backup accessibility service
+07-07 15:18:21.759  2111  2146 W 3c.app.tb: Removing shortcut Restore: no log permission
+07-07 15:18:21.759   529   540 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:21.759   529   540 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:21.760  2111  2144 W 3c.app.tb: Removing shortcut Restore: no log permission
+07-07 15:18:21.756  2186  2186 I liblib3c.so: type=1400 audit(0.0:906): avc: denied { execute_no_trans } for path="/system/bin/pm" dev="sda6" ino=539 scontext=u:r:su_daemon:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+07-07 15:18:21.760   529   529 I Binder:529_6: type=1400 audit(0.0:907): avc: denied { write } for name="timerslack_ns" dev="proc" ino=28010 scontext=u:r:system_server:s0 tcontext=u:r:system_app:s0 tclass=file permissive=1
+07-07 15:18:21.773  2111  2189 W 3c.ui.utils: shortcut initialized  / 0 / empty
+07-07 15:18:21.773  2111  2189 W 3c.ui.utils: Loading language into shortcuts initializer
+07-07 15:18:21.773  2111  2189 W 3c.ui.utils: Loaded language into shortcuts initializer: en_US
+07-07 15:18:21.782  2111  2189 W 3c.app.tb: Removing shortcut Profile: no log permission
+07-07 15:18:21.851  2158  2176 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:18:21.867   482   482 E EGL_emulation: tid 482: eglCreateSyncKHR(2094): error 0x3004 (EGL_BAD_ATTRIBUTE)
+07-07 15:18:21.869  2186  2186 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:18:21.871  2182  2182 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:18:21.868  2186  2186 I app_process: type=1400 audit(0.0:908): avc: denied { read } for name="system@framework@boot.vdex" dev="sdb3" ino=105876 scontext=u:r:su_daemon:s0 tcontext=u:object_r:dalvikcache_data_file:s0 tclass=lnk_file permissive=1
+07-07 15:18:21.868  2186  2186 I app_process: type=1400 audit(0.0:909): avc: denied { getattr } for path="/data/dalvik-cache/x86/system@framework@boot.oat" dev="sdb3" ino=105875 scontext=u:r:su_daemon:s0 tcontext=u:object_r:dalvikcache_data_file:s0 tclass=lnk_file permissive=1
+07-07 15:18:21.873  2182  2182 W /system/bin/app_process: Could not reserve sentinel fault page
+07-07 15:18:21.904  2182  2182 W /system/bin/app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:18:21.904  2186  2186 W app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:18:21.900  2186  2186 I main    : type=1400 audit(0.0:910): avc: denied { execute } for path="/dev/ashmem" dev="tmpfs" ino=8231 scontext=u:r:su_daemon:s0 tcontext=u:object_r:ashmem_device:s0 tclass=chr_file permissive=1
+07-07 15:18:21.900  2182  2182 I main    : type=1400 audit(0.0:911): avc: denied { execute } for path="/dev/ashmem" dev="tmpfs" ino=8231 scontext=u:r:su_daemon:s0 tcontext=u:object_r:ashmem_device:s0 tclass=chr_file permissive=1
+07-07 15:18:21.905  2182  2182 I /system/bin/app_process: The ClassLoaderContext is a special shared library.
+07-07 15:18:21.906  2186  2186 I app_process: The ClassLoaderContext is a special shared library.
+07-07 15:18:21.919  2182  2182 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+07-07 15:18:21.916   168   168 I servicemanager: type=1400 audit(0.0:912): avc: denied { getattr } for scontext=u:r:servicemanager:s0 tcontext=u:r:su_daemon:s0 tclass=process permissive=1
+07-07 15:18:21.920  2186  2186 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+07-07 15:18:21.916  2182  2182 I main    : type=1400 audit(0.0:913): avc: denied { call } for scontext=u:r:su_daemon:s0 tcontext=u:r:system_server:s0 tclass=binder permissive=1
+07-07 15:18:21.916  2182  2182 I main    : type=1400 audit(0.0:914): avc: denied { transfer } for scontext=u:r:su_daemon:s0 tcontext=u:r:system_server:s0 tclass=binder permissive=1
+07-07 15:18:21.921   168   168 E SELinux : avc:  denied  { find } for service=account pid=2186 uid=0 scontext=u:r:su_daemon:s0 tcontext=u:object_r:account_service:s0 tclass=service_manager permissive=1
+07-07 15:18:21.921   168   168 E SELinux : avc:  denied  { find } for service=user pid=2186 uid=0 scontext=u:r:su_daemon:s0 tcontext=u:object_r:user_service:s0 tclass=service_manager permissive=1
+07-07 15:18:21.916   529   529 I Binder:529_6: type=1400 audit(0.0:915): avc: denied { transfer } for scontext=u:r:system_server:s0 tcontext=u:r:su_daemon:s0 tclass=binder permissive=1
+07-07 15:18:21.922  2186  2186 I app_process: System.exit called, status: 0
+07-07 15:18:21.922  2186  2186 I AndroidRuntime: VM exiting with result code 0.
+07-07 15:18:21.931  2111  2189 W 3c.app.tb: Removing shortcut Freeze: no log permission
+07-07 15:18:21.932  2111  2128 W 3c.app.tb: Removing shortcut Usage: API != 22
+07-07 15:18:21.932  2111  2189 W 3c.app.tb: Removing shortcut Backup: no log permission
+07-07 15:18:21.932  2111  2144 W 3c.app.tb: Removing shortcut Usage: API != 22
+07-07 15:18:21.933  2111  2146 W 3c.app.tb: Removing shortcut Usage: API != 22
+07-07 15:18:21.933  2111  2128 W 3c.app.tb: Removing shortcut Optimization: API != 23
+07-07 15:18:21.939  2111  2189 W 3c.app.tb: Removing shortcut Restore: no log permission
+07-07 15:18:21.941  2111  2146 W 3c.app.tb: Removing shortcut Optimization: API != 23
+07-07 15:18:21.942  2111  2144 W 3c.app.tb: Removing shortcut Optimization: API != 23
+07-07 15:18:21.940   529   529 I Binder:529_E: type=1400 audit(0.0:916): avc: denied { call } for scontext=u:r:system_server:s0 tcontext=u:r:su_daemon:s0 tclass=binder permissive=1
+07-07 15:18:21.945  2182  2182 D AndroidRuntime: Shutting down VM
+07-07 15:18:21.948  1656  2210 D OpenGLRenderer: Skia GL Pipeline
+07-07 15:18:21.957  1656  2210 D libEGL  : Emulator has host GPU support, qemu.gles is set to 1.
+07-07 15:18:21.957  1656  2210 D vndksupport: Loading /vendor/lib/egl/libGLES_emulation.so from current namespace instead of sphal namespace.
+07-07 15:18:21.958  1656  2210 E libEGL  : load_driver(/vendor/lib/egl/libGLES_emulation.so): dlopen failed: library "/vendor/lib/egl/libGLES_emulation.so" not found
+07-07 15:18:21.958  1656  2210 D vndksupport: Loading /vendor/lib/egl/libEGL_emulation.so from current namespace instead of sphal namespace.
+07-07 15:18:21.960  1656  2210 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+07-07 15:18:21.961  1656  2210 D vndksupport: Loading /vendor/lib/egl/libGLESv1_CM_emulation.so from current namespace instead of sphal namespace.
+07-07 15:18:21.961  1656  2210 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+07-07 15:18:21.968  1656  2210 D vndksupport: Loading /vendor/lib/egl/libGLESv2_emulation.so from current namespace instead of sphal namespace.
+07-07 15:18:21.968  1656  2210 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+07-07 15:18:21.976  1656  2210 D         : HostConnection::get() New Host Connection established 0xe44a43c0, pid 1656, tid 2210
+07-07 15:18:21.977   461  2211 D local_opengl: Sending id 24 to host
+07-07 15:18:21.977  1656  2210 D         : HostComposition ext ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_async_unmap_buffer ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_1 
+07-07 15:18:21.977  1656  2210 W         : Process pipe failed
+07-07 15:18:21.979  1656  2210 I com.genymotion.superuser: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+07-07 15:18:21.979  1656  2210 I OpenGLRenderer: Initialized EGL, version 1.4
+07-07 15:18:21.979  1656  2210 D OpenGLRenderer: Swap behavior 1
+07-07 15:18:21.979  1656  2210 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-07 15:18:21.979  1656  2210 D OpenGLRenderer: Swap behavior 0
+07-07 15:18:21.980  1656  2210 D EGL_emulation: eglCreateContext: 0xe4485480: maj 3 min 1 rcv 4
+07-07 15:18:21.995  1656  2210 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008f38
+07-07 15:18:21.996  1656  2210 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008f38
+07-07 15:18:21.996  1656  2210 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ca
+07-07 15:18:21.996  1656  2210 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ca
+07-07 15:18:21.997  1656  2210 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ce
+07-07 15:18:21.997  1656  2210 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ce
+07-07 15:18:21.997  1656  2210 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090cf
+07-07 15:18:21.997  1656  2210 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090cf
+07-07 15:18:21.999  1656  2210 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+07-07 15:18:22.000  1656  2210 D vndksupport: Loading /vendor/lib/hw/gralloc.vbox86.so from current namespace instead of sphal namespace.
+07-07 15:18:22.000  1656  2210 D         : createUnique: call
+07-07 15:18:22.001  1656  2210 D         : HostConnection::get() New Host Connection established 0xe44a42d0, pid 1656, tid 2210
+07-07 15:18:22.001   461  2213 D local_opengl: Sending id 25 to host
+07-07 15:18:22.001  1656  2210 D         : HostComposition ext ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_async_unmap_buffer ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_1 
+07-07 15:18:22.002  1656  2210 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:18:22.052  2209  2209 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:18:22.086  2209  2209 W app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:18:22.088  2209  2209 I app_process: The ClassLoaderContext is a special shared library.
+07-07 15:18:22.098  2209  2209 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+07-07 15:18:22.099  2209  2209 I app_process: System.exit called, status: 0
+07-07 15:18:22.099  2209  2209 I AndroidRuntime: VM exiting with result code 0.
+07-07 15:18:22.106  2111  2128 W zygote  : Long monitor contention with owner lib3c_task #2 (2143) at java.util.ArrayList lib3c.lib3c.runmulti(java.lang.String)(:-2) waiters=1 in boolean lib3c.lib3c.B() for 167ms
+07-07 15:18:22.107  2111  2144 W zygote  : Long monitor contention with owner lib3c_task #2 (2143) at java.util.ArrayList lib3c.lib3c.runmulti(java.lang.String)(:-2) waiters=3 in boolean lib3c.lib3c.B() for 164ms
+07-07 15:18:22.107  2111  2189 W 3c.app.tb: Removing shortcut Force-stop: no log permission
+07-07 15:18:22.108  2111  2189 W 3c.app.tb: Removing shortcut Kill: no log permission
+07-07 15:18:22.115  2111  2128 W 3c.app.tb: Removing shortcut Graphics: API != 23
+07-07 15:18:22.115  2111  2128 W 3c.app.tb: Removing shortcut Wi-Fi AP: API < 23
+07-07 15:18:22.115  2111  2146 W 3c.app.tb: Removing shortcut Graphics: API != 23
+07-07 15:18:22.116  2111  2146 W 3c.app.tb: Removing shortcut Wi-Fi AP: API < 23
+07-07 15:18:22.211  2223  2223 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:18:22.245  2223  2223 W app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:18:22.246  2223  2223 I app_process: The ClassLoaderContext is a special shared library.
+07-07 15:18:22.257  2223  2223 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+07-07 15:18:22.258  2223  2223 I app_process: System.exit called, status: 0
+07-07 15:18:22.258  2223  2223 I AndroidRuntime: VM exiting with result code 0.
+07-07 15:18:22.264  2111  2146 W zygote  : Long monitor contention with owner lib3c_task #2 (2143) at java.util.ArrayList lib3c.lib3c.runmulti(java.lang.String)(:-2) waiters=3 in boolean lib3c.lib3c.B() for 148ms
+07-07 15:18:22.264  2111  2143 D 3c.app.tb: Disabling force stop accessibility service
+07-07 15:18:22.265   529  1829 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:22.265   529  1829 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:22.265  2111  2143 D 3c.app.tb: Disabling force stop service
+07-07 15:18:22.266   529  1829 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:22.266   529  1829 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:22.266  2111  2143 D 3c.lib  : Installing ZIP file widgets.zip
+07-07 15:18:22.267  2111  2143 W 3c.files: Is external SD secure:false
+07-07 15:18:22.268  2111  2143 I 3c.files: Extracting ZIP file /data/user/0/ccc71.at.free/widgets.zip from c.ka2@a91d200 to /storage/emulated/0/Android/data/ccc71.at.free (notifying on null)
+07-07 15:18:22.269  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_1x1_battery to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_1x1_battery
+07-07 15:18:22.270  2111  2143 I 3c.files: Adding extracted size 93 = 93 vs 10064
+07-07 15:18:22.270  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_1x1_battery_text to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_1x1_battery_text
+07-07 15:18:22.270  2111  2143 I 3c.files: Adding extracted size 94 = 187 vs 10064
+07-07 15:18:22.270  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_1x1_cpu to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_1x1_cpu
+07-07 15:18:22.270  2111  2143 I 3c.files: Adding extracted size 91 = 278 vs 10064
+07-07 15:18:22.270  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_1x1_cpu_big to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_1x1_cpu_big
+07-07 15:18:22.270  2111  2143 I 3c.files: Adding extracted size 96 = 374 vs 10064
+07-07 15:18:22.270  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_1x1_cpu_text to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_1x1_cpu_text
+07-07 15:18:22.270  2111  2143 I 3c.files: Adding extracted size 90 = 464 vs 10064
+07-07 15:18:22.270  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_1x1_network to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_1x1_network
+07-07 15:18:22.270  2111  2143 I 3c.files: Adding extracted size 96 = 560 vs 10064
+07-07 15:18:22.270  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_1x1_on-battery_big to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_1x1_on-battery_big
+07-07 15:18:22.274  2111  2143 I 3c.files: Adding extracted size 101 = 661 vs 10064
+07-07 15:18:22.274  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_1x1_screen-on_big to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_1x1_screen-on_big
+07-07 15:18:22.274  2111  2128 W 3c.app.tb: Removing shortcut GPU: no GPU
+07-07 15:18:22.274  2111  2143 I 3c.files: Adding extracted size 96 = 757 vs 10064
+07-07 15:18:22.274  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_2x1_battery to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_2x1_battery
+07-07 15:18:22.274  2111  2189 W 3c.app.tb: Removing shortcut Usage: API != 22
+07-07 15:18:22.274  2111  2189 W 3c.app.tb: Removing shortcut Optimization: API != 23
+07-07 15:18:22.275  2111  2143 I 3c.files: Adding extracted size 97 = 854 vs 10064
+07-07 15:18:22.275  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_2x1_cpu to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_2x1_cpu
+07-07 15:18:22.275  2111  2128 W 3c.app.tb: Removing shortcut Times: no TIMES
+07-07 15:18:22.275  2111  2128 D 3c.control: max_cpu Read valid core for max cpu
+07-07 15:18:22.275  2111  2143 I 3c.files: Adding extracted size 92 = 946 vs 10064
+07-07 15:18:22.275  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_2x1_network to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_2x1_network
+07-07 15:18:22.275  2111  2128 D 3c.control: max_cpu Read valid core: 0-3
+07-07 15:18:22.275  2111  2128 D 3c.control: max_cpu Read single core: 0 from 0
+07-07 15:18:22.275  2111  2128 D 3c.control: max_cpu Read single core: 3 from 3
+07-07 15:18:22.275  2111  2128 W 3c.app.tb: Removing shortcut Voltage: no VOLTAGE
+07-07 15:18:22.275  2111  2143 I 3c.files: Adding extracted size 100 = 1046 vs 10064
+07-07 15:18:22.275  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Graph_battery-dark to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Graph_battery-dark
+07-07 15:18:22.276  2111  2128 W 3c.app.tb: Removing shortcut Thermal: no THERMAL
+07-07 15:18:22.276  2111  2128 W 3c.app.tb: Removing shortcut MPDecision: no MP
+07-07 15:18:22.276  2111  2143 I 3c.files: Adding extracted size 101 = 1147 vs 10064
+07-07 15:18:22.276  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Graph_battery-light to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Graph_battery-light
+07-07 15:18:22.277  2111  2143 I 3c.files: Adding extracted size 98 = 1245 vs 10064
+07-07 15:18:22.277  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Graph_cpu-dark to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Graph_cpu-dark
+07-07 15:18:22.279  2111  2128 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_r
+07-07 15:18:22.279  2111  2128 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_g
+07-07 15:18:22.279  2111  2128 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_b
+07-07 15:18:22.279  2111  2128 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_ctrl
+07-07 15:18:22.279  2111  2128 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal
+07-07 15:18:22.279  2111  2128 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal_ctrl
+07-07 15:18:22.279  2111  2128 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/refresh_screen
+07-07 15:18:22.279  2111  2128 D 3c.control: Checking availability: /sys/class/misc/colorcontrol/multiplier_disabled
+07-07 15:18:22.279  2111  2128 W 3c.app.tb: Removing shortcut Gamma: no GAMMA
+07-07 15:18:22.280  2111  2128 D 3c.control: Checking availability: /sys/kernel/sound_control/cam_mic_gain
+07-07 15:18:22.280  2111  2128 D 3c.control: Checking availability: /sys/kernel/sound_control/headphone_gain
+07-07 15:18:22.280  2111  2128 D 3c.control: Checking availability: /sys/kernel/sound_control/mic_gain
+07-07 15:18:22.280  2111  2128 D 3c.control: Checking availability: /sys/kernel/sound_control/speaker_gain
+07-07 15:18:22.280  2111  2128 D 3c.control: Checking availability: /sys/kernel/sound_control/gpl_sound_control_locked
+07-07 15:18:22.280  2111  2128 W 3c.app.tb: Removing shortcut Sound: no SOUND
+07-07 15:18:22.281  2111  2143 I 3c.files: Adding extracted size 100 = 1345 vs 10064
+07-07 15:18:22.281  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Graph_cpu-light to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Graph_cpu-light
+07-07 15:18:22.282  2111  2143 I 3c.files: Adding extracted size 96 = 1441 vs 10064
+07-07 15:18:22.282  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Graph_memory-dark to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Graph_memory-dark
+07-07 15:18:22.282  2111  2143 I 3c.files: Adding extracted size 100 = 1541 vs 10064
+07-07 15:18:22.282  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Graph_memory-light to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Graph_memory-light
+07-07 15:18:22.282  2111  2143 I 3c.files: Adding extracted size 101 = 1642 vs 10064
+07-07 15:18:22.282  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Graph_network-dark to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Graph_network-dark
+07-07 15:18:22.283  2111  2143 I 3c.files: Adding extracted size 101 = 1743 vs 10064
+07-07 15:18:22.283  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Graph_network-light to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Graph_network-light
+07-07 15:18:22.283  2111  2143 I 3c.files: Adding extracted size 102 = 1845 vs 10064
+07-07 15:18:22.283  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Graph_temperatures-dark to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Graph_temperatures-dark
+07-07 15:18:22.283  2111  2128 W 3c.ui.utils: Done initializing shortcuts
+07-07 15:18:22.283  2111  2143 I 3c.files: Adding extracted size 106 = 1951 vs 10064
+07-07 15:18:22.283  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Graph_temperatures-light to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Graph_temperatures-light
+07-07 15:18:22.284  2111  2143 I 3c.files: Adding extracted size 106 = 2057 vs 10064
+07-07 15:18:22.284  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Single_battery to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Single_battery
+07-07 15:18:22.285  2111  2143 I 3c.files: Adding extracted size 85 = 2142 vs 10064
+07-07 15:18:22.285  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Single_battery_temp to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Single_battery_temp
+07-07 15:18:22.285  2111  2143 I 3c.files: Adding extracted size 85 = 2227 vs 10064
+07-07 15:18:22.285  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Single_cpu to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Single_cpu
+07-07 15:18:22.285  2111  2143 I 3c.files: Adding extracted size 83 = 2310 vs 10064
+07-07 15:18:22.285  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Single_cpu_temp to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Single_cpu_temp
+07-07 15:18:22.285  2111  2146 W 3c.app.tb: Removing shortcut GPU: no GPU
+07-07 15:18:22.285  2111  2146 W 3c.app.tb: Removing shortcut Times: no TIMES
+07-07 15:18:22.285  2111  2146 W 3c.app.tb: Removing shortcut Voltage: no VOLTAGE
+07-07 15:18:22.285  2111  2146 W 3c.app.tb: Removing shortcut Thermal: no THERMAL
+07-07 15:18:22.285  2111  2146 W 3c.app.tb: Removing shortcut MPDecision: no MP
+07-07 15:18:22.285  2111  2143 I 3c.files: Adding extracted size 84 = 2394 vs 10064
+07-07 15:18:22.285  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Summary_blue to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Summary_blue
+07-07 15:18:22.286  2111  2143 I 3c.files: Adding extracted size 94 = 2488 vs 10064
+07-07 15:18:22.286  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Summary_green to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Summary_green
+07-07 15:18:22.286  2111  2143 I 3c.files: Adding extracted size 96 = 2584 vs 10064
+07-07 15:18:22.286  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Summary_orange to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Summary_orange
+07-07 15:18:22.286  2111  2143 I 3c.files: Adding extracted size 90 = 2674 vs 10064
+07-07 15:18:22.286  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_Summary_red to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_Summary_red
+07-07 15:18:22.286  2111  2146 W 3c.app.tb: Removing shortcut Gamma: no GAMMA
+07-07 15:18:22.287  2111  2143 I 3c.files: Adding extracted size 91 = 2765 vs 10064
+07-07 15:18:22.287  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_T4X1_basic to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_T4X1_basic
+07-07 15:18:22.287  2111  2143 I 3c.files: Adding extracted size 119 = 2884 vs 10064
+07-07 15:18:22.287  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_T4X1_extras to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_T4X1_extras
+07-07 15:18:22.288  2111  2143 I 3c.files: Adding extracted size 129 = 3013 vs 10064
+07-07 15:18:22.288  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_T4X1_full_row to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_T4X1_full_row
+07-07 15:18:22.289  2111  2143 I 3c.files: Adding extracted size 149 = 3162 vs 10064
+07-07 15:18:22.289  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_T4X1_mixed to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_T4X1_mixed
+07-07 15:18:22.289  2111  2143 I 3c.files: Adding extracted size 158 = 3320 vs 10064
+07-07 15:18:22.289  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_T4X1_network to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_T4X1_network
+07-07 15:18:22.289  2111  2144 W 3c.app.tb: Removing shortcut Graphics: API != 23
+07-07 15:18:22.289  2111  2143 I 3c.files: Adding extracted size 135 = 3455 vs 10064
+07-07 15:18:22.290  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_T4X1_row1 to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_T4X1_row1
+07-07 15:18:22.290  2111  2144 W 3c.app.tb: Removing shortcut Wi-Fi AP: API < 23
+07-07 15:18:22.290  2111  2143 I 3c.files: Adding extracted size 148 = 3603 vs 10064
+07-07 15:18:22.290  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_T4X1_row2 to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_T4X1_row2
+07-07 15:18:22.290  2111  2143 I 3c.files: Adding extracted size 145 = 3748 vs 10064
+07-07 15:18:22.290  2111  2143 I 3c.files: Possibly extracting file widgets/Widget_T4X1_shortcuts to /storage/emulated/0/Android/data/ccc71.at.free/widgets/Widget_T4X1_shortcuts
+07-07 15:18:22.290  2111  2143 I 3c.files: Adding extracted size 158 = 3906 vs 10064
+07-07 15:18:22.291  2111  2143 D 3c.lib  : Installing ZIP file presets.zip
+07-07 15:18:22.291  2111  2146 W 3c.app.tb: Removing shortcut Sound: no SOUND
+07-07 15:18:22.292  2111  2146 W 3c.ui.utils: Done initializing shortcuts
+07-07 15:18:22.294  2111  2143 W 3c.files: Is external SD secure:false
+07-07 15:18:22.294  2111  2143 I 3c.files: Extracting ZIP file /data/user/0/ccc71.at.free/presets.zip from c.ka2@80e5060 to /storage/emulated/0/Android/data/ccc71.at.free (notifying on null)
+07-07 15:18:22.294  2111  2143 I 3c.files: Possibly extracting file gammas/ to /storage/emulated/0/Android/data/ccc71.at.free/gammas/
+07-07 15:18:22.294  2111  2128 D 3c.processes: Loaded known list: 0
+07-07 15:18:22.294  2111  2143 I 3c.files: Adding extracted size 0 = 0 vs 9174
+07-07 15:18:22.294  2111  2143 I 3c.files: Possibly extracting file gammas/1031Vulcan to /storage/emulated/0/Android/data/ccc71.at.free/gammas/1031Vulcan
+07-07 15:18:22.296   529   799 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:22.296   529   799 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:22.296   529   795 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:22.296   529   795 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:22.296  2111  2189 W 3c.app.tb: Removing shortcut Graphics: API != 23
+07-07 15:18:22.297  2111  2128 D 3c.processes: Got 0 excluded processes
+07-07 15:18:22.297  2111  2128 D 3c.processes: Loaded excluded list: 0
+07-07 15:18:22.297  2111  2189 W 3c.app.tb: Removing shortcut Wi-Fi AP: API < 23
+07-07 15:18:22.297  2111  2128 W 3c.app.tb: Starting missing services after force-stop
+07-07 15:18:22.297  2111  2128 W 3c.ui   : Auto-kill screen-off :false root: true, SDK: 27
+07-07 15:18:22.301  2111  2144 W 3c.app.tb: Removing shortcut GPU: no GPU
+07-07 15:18:22.301  2111  2144 W 3c.app.tb: Removing shortcut Times: no TIMES
+07-07 15:18:22.301  2111  2144 W 3c.app.tb: Removing shortcut Voltage: no VOLTAGE
+07-07 15:18:22.301  2111  2189 W 3c.app.tb: Removing shortcut GPU: no GPU
+07-07 15:18:22.301  2111  2189 W 3c.app.tb: Removing shortcut Times: no TIMES
+07-07 15:18:22.301  2111  2189 W 3c.app.tb: Removing shortcut Voltage: no VOLTAGE
+07-07 15:18:22.301  2111  2144 W 3c.app.tb: Removing shortcut Thermal: no THERMAL
+07-07 15:18:22.301  2111  2144 W 3c.app.tb: Removing shortcut MPDecision: no MP
+07-07 15:18:22.301  2111  2189 W 3c.app.tb: Removing shortcut Thermal: no THERMAL
+07-07 15:18:22.302  2111  2189 W 3c.app.tb: Removing shortcut MPDecision: no MP
+07-07 15:18:22.302  2111  2144 W 3c.app.tb: Removing shortcut Gamma: no GAMMA
+07-07 15:18:22.302  2111  2144 W 3c.app.tb: Removing shortcut Sound: no SOUND
+07-07 15:18:22.303  2111  2189 W 3c.app.tb: Removing shortcut Gamma: no GAMMA
+07-07 15:18:22.303  2111  2189 W 3c.app.tb: Removing shortcut Sound: no SOUND
+07-07 15:18:22.306  2111  2144 W 3c.ui.utils: Done initializing shortcuts
+07-07 15:18:22.306  2111  2189 W 3c.ui.utils: Done initializing shortcuts
+07-07 15:18:22.312  2111  2143 I 3c.files: Adding extracted size 46 = 46 vs 9174
+07-07 15:18:22.313  2111  2143 I 3c.files: Possibly extracting file gammas/Archmag3 to /storage/emulated/0/Android/data/ccc71.at.free/gammas/Archmag3
+07-07 15:18:22.314  2111  2143 I 3c.files: Adding extracted size 45 = 91 vs 9174
+07-07 15:18:22.314  2111  2143 I 3c.files: Possibly extracting file gammas/ceejay83 to /storage/emulated/0/Android/data/ccc71.at.free/gammas/ceejay83
+07-07 15:18:22.316  2111  2143 I 3c.files: Adding extracted size 44 = 135 vs 9174
+07-07 15:18:22.316  2111  2143 I 3c.files: Possibly extracting file gammas/HRodMusic to /storage/emulated/0/Android/data/ccc71.at.free/gammas/HRodMusic
+07-07 15:18:22.316  2111  2143 I 3c.files: Adding extracted size 45 = 180 vs 9174
+07-07 15:18:22.316  2111  2143 I 3c.files: Possibly extracting file gammas/Kel to /storage/emulated/0/Android/data/ccc71.at.free/gammas/Kel
+07-07 15:18:22.316  2111  2143 I 3c.files: Adding extracted size 55 = 235 vs 9174
+07-07 15:18:22.316  2111  2143 I 3c.files: Possibly extracting file gammas/Krunk83 to /storage/emulated/0/Android/data/ccc71.at.free/gammas/Krunk83
+07-07 15:18:22.319  2111  2143 I 3c.files: Adding extracted size 47 = 282 vs 9174
+07-07 15:18:22.319  2111  2143 I 3c.files: Possibly extracting file gammas/molesarecoming to /storage/emulated/0/Android/data/ccc71.at.free/gammas/molesarecoming
+07-07 15:18:22.320  2111  2143 I 3c.files: Adding extracted size 50 = 332 vs 9174
+07-07 15:18:22.320  2111  2143 I 3c.files: Possibly extracting file gammas/night-mode to /storage/emulated/0/Android/data/ccc71.at.free/gammas/night-mode
+07-07 15:18:22.320  2111  2143 I 3c.files: Adding extracted size 45 = 377 vs 9174
+07-07 15:18:22.320  2111  2143 I 3c.files: Possibly extracting file gammas/obsanity to /storage/emulated/0/Android/data/ccc71.at.free/gammas/obsanity
+07-07 15:18:22.321  2111  2143 I 3c.files: Adding extracted size 41 = 418 vs 9174
+07-07 15:18:22.321  2111  2143 I 3c.files: Possibly extracting file gammas/sadoway to /storage/emulated/0/Android/data/ccc71.at.free/gammas/sadoway
+07-07 15:18:22.321  2111  2143 I 3c.files: Adding extracted size 50 = 468 vs 9174
+07-07 15:18:22.322  2111  2143 I 3c.files: Possibly extracting file gammas/Sandman2749 to /storage/emulated/0/Android/data/ccc71.at.free/gammas/Sandman2749
+07-07 15:18:22.323  2111  2143 I 3c.files: Adding extracted size 45 = 513 vs 9174
+07-07 15:18:22.323  2111  2143 I 3c.files: Possibly extracting file gammas/sebacestmoi to /storage/emulated/0/Android/data/ccc71.at.free/gammas/sebacestmoi
+07-07 15:18:22.324  2111  2143 I 3c.files: Adding extracted size 44 = 557 vs 9174
+07-07 15:18:22.324  2111  2143 I 3c.files: Possibly extracting file gammas/TonyHoyle to /storage/emulated/0/Android/data/ccc71.at.free/gammas/TonyHoyle
+07-07 15:18:22.325  2111  2143 I 3c.files: Adding extracted size 44 = 601 vs 9174
+07-07 15:18:22.325  2111  2143 I 3c.files: Possibly extracting file sysctl/ to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/
+07-07 15:18:22.325  2111  2143 I 3c.files: Adding extracted size 0 = 601 vs 9174
+07-07 15:18:22.325  2111  2143 I 3c.files: Possibly extracting file sysctl/generic to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/generic
+07-07 15:18:22.325  2111  2143 I 3c.files: Adding extracted size 412 = 1013 vs 9174
+07-07 15:18:22.325  2111  2143 I 3c.files: Possibly extracting file sysctl/generic_11 to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/generic_11
+07-07 15:18:22.326  2111  2143 I 3c.files: Adding extracted size 564 = 1576 vs 9174
+07-07 15:18:22.326  2111  2143 I 3c.files: Possibly extracting file sysctl/generic_4.4_kitkat to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/generic_4.4_kitkat
+07-07 15:18:22.327  2111  2143 I 3c.files: Adding extracted size 469 = 2045 vs 9174
+07-07 15:18:22.327  2111  2143 I 3c.files: Possibly extracting file sysctl/generic_4.x_jb to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/generic_4.x_jb
+07-07 15:18:22.327  2111  2143 I 3c.files: Adding extracted size 469 = 2514 vs 9174
+07-07 15:18:22.327  2111  2143 I 3c.files: Possibly extracting file sysctl/generic_5.x_lollipop to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/generic_5.x_lollipop
+07-07 15:18:22.328  2111  2143 I 3c.files: Adding extracted size 401 = 2915 vs 9174
+07-07 15:18:22.328  2111  2143 I 3c.files: Possibly extracting file sysctl/generic_6.0_marshmallow to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/generic_6.0_marshmallow
+07-07 15:18:22.328  2111  2128 E 3c.settings: Prefs prefskey.watch.id default -1
+07-07 15:18:22.328  2111  2128 W 3c.lib  : Calling native ls(false, false, /data/user/0/ccc71.at.free/xposed
+07-07 15:18:22.328  2111  2143 I 3c.files: Adding extracted size 401 = 3316 vs 9174
+07-07 15:18:22.329  2111  2143 I 3c.files: Possibly extracting file sysctl/generic_7.x_nougat to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/generic_7.x_nougat
+07-07 15:18:22.329  2111  2143 I 3c.files: Adding extracted size 401 = 3717 vs 9174
+07-07 15:18:22.329  2111  2143 I 3c.files: Possibly extracting file sysctl/generic_8.x_oreo to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/generic_8.x_oreo
+07-07 15:18:22.329  2111  2143 I 3c.files: Adding extracted size 401 = 4118 vs 9174
+07-07 15:18:22.329  2111  2143 I 3c.files: Possibly extracting file sysctl/generic_9.x_pie to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/generic_9.x_pie
+07-07 15:18:22.329  2111  2143 I 3c.files: Adding extracted size 401 = 4519 vs 9174
+07-07 15:18:22.330  2111  2143 I 3c.files: Possibly extracting file sysctl/generic_g2x to /storage/emulated/0/Android/data/ccc71.at.free/sysctl/generic_g2x
+07-07 15:18:22.330  2111  2143 I 3c.files: Adding extracted size 948 = 5466 vs 9174
+07-07 15:18:22.330  2111  2143 D 3c.lib  : Installing ZIP file debloat.zip
+07-07 15:18:22.331  2111  2143 W 3c.files: Is external SD secure:false
+07-07 15:18:22.331  2111  2143 I 3c.files: Extracting ZIP file /data/user/0/ccc71.at.free/debloat.zip from c.ka2@647c6ec to /storage/emulated/0/Android/data/ccc71.at.free (notifying on null)
+07-07 15:18:22.331  2111  2143 I 3c.files: Possibly extracting file debloat/ to /storage/emulated/0/Android/data/ccc71.at.free/debloat/
+07-07 15:18:22.331  2111  2143 I 3c.files: Adding extracted size 0 = 0 vs 4751
+07-07 15:18:22.331  2111  2143 I 3c.files: Possibly extracting file debloat/aosp to /storage/emulated/0/Android/data/ccc71.at.free/debloat/aosp
+07-07 15:18:22.331  2111  2143 I 3c.files: Adding extracted size 213 = 213 vs 4751
+07-07 15:18:22.332  2111  2143 I 3c.files: Possibly extracting file debloat/google to /storage/emulated/0/Android/data/ccc71.at.free/debloat/google
+07-07 15:18:22.332  2111  2143 I 3c.files: Adding extracted size 182 = 395 vs 4751
+07-07 15:18:22.332  2111  2143 I 3c.files: Possibly extracting file debloat/lg to /storage/emulated/0/Android/data/ccc71.at.free/debloat/lg
+07-07 15:18:22.332  2111  2143 I 3c.files: Adding extracted size 522 = 916 vs 4751
+07-07 15:18:22.332  2111  2143 I 3c.files: Possibly extracting file debloat/oneplus to /storage/emulated/0/Android/data/ccc71.at.free/debloat/oneplus
+07-07 15:18:22.332  2111  2143 I 3c.files: Adding extracted size 237 = 1153 vs 4751
+07-07 15:18:22.332  2111  2143 I 3c.files: Possibly extracting file debloat/oppo to /storage/emulated/0/Android/data/ccc71.at.free/debloat/oppo
+07-07 15:18:22.333  2111  2143 I 3c.files: Adding extracted size 793 = 1945 vs 4751
+07-07 15:18:22.333  2111  2143 I 3c.files: Possibly extracting file debloat/samsung to /storage/emulated/0/Android/data/ccc71.at.free/debloat/samsung
+07-07 15:18:22.333  2111  2143 I 3c.files: Adding extracted size 860 = 2804 vs 4751
+07-07 15:18:22.333  2111  2143 I 3c.files: Possibly extracting file debloat/xiaomi to /storage/emulated/0/Android/data/ccc71.at.free/debloat/xiaomi
+07-07 15:18:22.333  2111  2143 I 3c.files: Adding extracted size 826 = 3629 vs 4751
+07-07 15:18:22.340  2237  2237 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+07-07 15:18:22.342   529   795 I ActivityManager: Start proc 2237:ccc71.at.free/u0a68 for service ccc71.at.free/lib3c.controls.xposed.lib3c_logcat_service
+07-07 15:18:22.343  2111  2116 I zygote  : Do full code cache collection, code=125KB, data=88KB
+07-07 15:18:22.343  2111  2116 I zygote  : After code cache collection, code=111KB, data=69KB
+07-07 15:18:22.344  2111  2143 W 3c.files: Is external SD secure:false
+07-07 15:18:22.345  2111  2143 W 3c.files: Is external SD secure:false
+07-07 15:18:22.347  2111  2143 D 3c.files: Transforming SD device from /dev/block/by-name/data into /dev/block/sdb3
+07-07 15:18:22.356  2111  2143 D 3c.control: Checking availability: /sys/devices/virtual/bdi/8:16/read_ahead_kb
+07-07 15:18:22.358  2111  2143 W 3c.files: Is external SD secure:false
+07-07 15:18:22.358  2111  2143 D 3c.control: Checking availability: /sys/block/sdb/queue/scheduler
+07-07 15:18:22.359  2237  2237 I MultiDex: VM with version 2.1.0 has multidex support
+07-07 15:18:22.359  2237  2237 I MultiDex: Installing application
+07-07 15:18:22.359  2237  2237 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+07-07 15:18:22.359  2111  2128 E 3c.settings: Prefs prefskey.profile.id default -1
+07-07 15:18:22.359  2111  2128 W 3c.profiles: Current profile: -1
+07-07 15:18:22.359  2111  2143 D 3c.control: Checking availability: /sys/module/sync/parameters/fsync_enabled
+07-07 15:18:22.360  2111  2143 D 3c.control: Checking availability: /sys/kernel/dyn_fsync/Dyn_fsync_active
+07-07 15:18:22.360  2111  2143 D 3c.control: Checking availability: /sys/devices/virtual/misc/fsynccontrol/fsync_enabled
+07-07 15:18:22.360  2111  2143 D 3c.control: Checking availability: /sys/class/misc/fsynccontrol/fsync_enabled
+07-07 15:18:22.360  2111  2128 D 3c.profiles: tweaks needed: profile: null
+07-07 15:18:22.361  2111  2143 D 3c.control: Checking availability: /sys/android_touch/sweep2wake
+07-07 15:18:22.361  2111  2143 D 3c.control: Checking availability: /sys/devices/virtual/misc/touchwake/enabled
+07-07 15:18:22.361  2111  2143 D 3c.control: Checking availability: /sys/android_key/sweep2wake
+07-07 15:18:22.362  2111  2143 D 3c.control: Checking availability: /sys/android_touch/sweep2sleep
+07-07 15:18:22.362  2111  2143 D 3c.control: Checking availability: /sys/android_key/sweep2sleep
+07-07 15:18:22.362   529   799 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:22.363   529   799 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:22.363  2111  2128 D 3c.notifications: Got notifications packages: 
+07-07 15:18:22.363   529   799 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:22.363   529   799 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:22.364  2111  2143 D 3c.control: Checking availability: /sys/android_touch/doubletap2wake
+07-07 15:18:22.364  2111  2143 D 3c.control: Checking availability: /sys/android_key/doubletap2wake
+07-07 15:18:22.364  2111  2128 D 3c.notifications: Got notifications packages: 
+07-07 15:18:22.365  2111  2128 E 3c.settings: Prefs prefskey.watch.id default -1
+07-07 15:18:22.365   529   799 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:22.365  2111  2143 D 3c.control: Checking availability: /sys/devices/platform/htc_battery/fast_charge
+07-07 15:18:22.365   529   799 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:22.370  2111  2143 D 3c.control: Checking availability: /sys/kernel/fast_charge/force_fast_charge
+07-07 15:18:22.370  2111  2143 I 3c.app.tb: Checking Xposed configuration
+07-07 15:18:22.371  2237  2237 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+07-07 15:18:22.373   529   799 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:22.373   529   799 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:22.378  2237  2237 D 3c.explorer: provider.onCreate
+07-07 15:18:22.385  2237  2237 I 3c.xposed: LogcatService: Starting logcat service (lib3c.controls.xposed.lib3c_logcat_service@c6dcebf)
+07-07 15:18:22.393  2111  2111 W 3c.ui.utils: Finishing init...
+07-07 15:18:22.393  2237  2258 W 3c.settings: Loaded 7 shared preference settings
+07-07 15:18:22.393  2237  2258 W 3c.lib  : Loading exception handler onto file /storage/emulated/0/Android/data/ccc71.at.free/support/crash_reports.txt
+07-07 15:18:22.394  2237  2258 E 3c.lib  : Checking isUI thread
+07-07 15:18:22.394  2111  2111 D 3c.ui.utils: lib3c_ui_utils.initInApps
+07-07 15:18:22.394  2237  2258 I 3c.lib  : Checking isUI (from AM):false - ccc71.at.free
+07-07 15:18:22.394  2111  2261 W 3c.settings: Commiting 1 shared preferences
+07-07 15:18:22.394  2237  2258 W 3c.ui.utils: shortcut initialized  / 0 / empty
+07-07 15:18:22.394  2237  2258 W 3c.ui.utils: Loading language into shortcuts initializer
+07-07 15:18:22.394  2237  2258 W 3c.ui.utils: Loaded language into shortcuts initializer: en_US
+07-07 15:18:22.395  2111  2111 D 3c.ui.utils: at_activity.initInAppPurchase(false);
+07-07 15:18:22.395  2237  2259 W 3c.settings: Loaded 7 shared preference settings
+07-07 15:18:22.395  2237  2259 W 3c.settings: Reloading shared preferences
+07-07 15:18:22.398  2111  2128 E 3c.lib  : Received uncaught exception
+07-07 15:18:22.398  2111  2128 E 3c.lib  : java.lang.NoClassDefFoundError: Failed resolution of: Llib3c/service/boot/lib3c_boot_service;
+07-07 15:18:22.398  2111  2128 E 3c.lib  : 	at lib3c.service.tasker.lib3c_task_receiver.a(Unknown Source:156)
+07-07 15:18:22.398  2111  2128 E 3c.lib  : 	at ccc71.at.at_application.a(Unknown Source:260)
+07-07 15:18:22.398  2111  2128 E 3c.lib  : 	at lib3c.application.lib3c_application$a.runThread(Unknown Source:204)
+07-07 15:18:22.398  2111  2128 E 3c.lib  : 	at c.gh2.run(Unknown Source:2)
+07-07 15:18:22.398  2111  2128 E 3c.lib  : Caused by: java.lang.ClassNotFoundException: Didn't find class "lib3c.service.boot.lib3c_boot_service" on path: DexPathList[[zip file "/data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/base.apk"],nativeLibraryDirectories=[/data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86, /data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/base.apk!/lib/x86, /system/lib, /system/vendor/lib]]
+07-07 15:18:22.398  2111  2128 E 3c.lib  : 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:125)
+07-07 15:18:22.398  2111  2128 E 3c.lib  : 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+07-07 15:18:22.398  2111  2128 E 3c.lib  : 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+07-07 15:18:22.398  2111  2128 E 3c.lib  : 	... 4 more
+07-07 15:18:22.399  2111  2128 I 3c.lib  : Finished logging uncaught exception
+07-07 15:18:22.399  2237  2237 W 3c.settings: Loaded 8 shared preference settings
+07-07 15:18:22.399  2237  2237 W 3c.settings: Reloading shared preferences
+07-07 15:18:22.399  2237  2237 W 3c.settings: Loaded 8 shared preference settings
+07-07 15:18:22.399  2237  2259 W 3c.settings: Loaded 8 shared preference settings
+07-07 15:18:22.403  2237  2237 W 3c.settings: Reloading shared preferences
+07-07 15:18:22.403  2237  2237 W 3c.settings: Loaded 8 shared preference settings
+07-07 15:18:22.403  2237  2237 W 3c.notifications: Registering lib3c_notification_timer
+07-07 15:18:22.405  2237  2237 W 3c.screen: Registered lib3c_screen_receiver (screen true)
+07-07 15:18:22.405  2237  2237 D 3c.notifications: Got notifications packages: 
+07-07 15:18:22.406  2237  2259 E 3c.settings: Prefs prefskey.watch.id default -1
+07-07 15:18:22.406  2237  2258 W 3c.lib  : Trying to gain root access, remaining attempts: 1
+07-07 15:18:22.406  2237  2258 W 3c.lib  : Running lib as root: /data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86/liblib3c.so
+07-07 15:18:22.406  2237  2259 W 3c.lib  : Calling native ls(false, false, /data/user/0/ccc71.at.free/xposed
+07-07 15:18:22.406  2237  2237 W 3c.screen: UNregistered lib3c_screen_receiver
+07-07 15:18:22.406  2237  2237 W 3c.notifications: Unregistering lib3c_notification_timer - not needed
+07-07 15:18:22.406  2237  2237 D 3c.notifications: Got notifications packages: 
+07-07 15:18:22.412  2237  2237 D 3c.notifications: Got notifications packages: 
+07-07 15:18:22.422  2237  2258 W 3c.lib  : Got root access, resetting attempts
+07-07 15:18:22.422  2237  2259 I 3c.xposed: LogcatService: Creating logcat service (lib3c.controls.xposed.lib3c_logcat_service$a@71a9854)
+07-07 15:18:22.425  2237  2259 E ThemeUtils: View class androidx.appcompat.widget.AppCompatImageView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+07-07 15:18:22.426  2237  2274 W 3c.xposed: LogcatService: Starting logcat reader lib3c.controls.xposed.lib3c_logcat_service$b@ab2e5c0
+07-07 15:18:22.427  2237  2274 D 3c.xposed: LogcatService: read 0 from at_limit_apps
+07-07 15:18:22.427  2237  2274 D 3c.xposed: LogcatService: got 0 limit periods apps
+07-07 15:18:22.428  2237  2274 E 3c.settings: Prefs prefskey.watch.id default -1
+07-07 15:18:22.428  2237  2274 D 3c.xposed: LogcatService: Current screen state 1
+07-07 15:18:22.428  2237  2258 W 3c.app.tb: Removing shortcut Usage: API != 22
+07-07 15:18:22.429  2237  2258 W 3c.app.tb: Removing shortcut Optimization: API != 23
+07-07 15:18:22.429  2237  2274 D 3c.processes: Loaded known list: 1
+07-07 15:18:22.429  2237  2274 D 3c.processes: Got 1 excluded processes
+07-07 15:18:22.429  2237  2274 D 3c.processes: Loaded excluded list: 1
+07-07 15:18:22.429  2237  2274 D 3c.processes: updateProcessInfo(-1, false, false, false, false)
+07-07 15:18:22.429  2237  2274 W 3c.processes: grepping...
+07-07 15:18:22.435  2237  2274 W 3c.processes: grepped 300 ...
+07-07 15:18:22.436  2237  2274 W 3c.processes: Found 102 valid processes
+07-07 15:18:22.446  2237  2246 W 3c.db   : c.of2.close() was never called to clean-up resources
+07-07 15:18:22.446  2237  2246 W 3c.db   : java.lang.Exception: Process has leaked c.of2
+07-07 15:18:22.446  2237  2246 W 3c.db   : 	at c.e82.<init>(Unknown Source:32)
+07-07 15:18:22.446  2237  2246 W 3c.db   : 	at c.of2.<init>(Unknown Source:7)
+07-07 15:18:22.446  2237  2246 W 3c.db   : 	at c.nf2.M(Unknown Source:15)
+07-07 15:18:22.446  2237  2246 W 3c.db   : 	at lib3c.controls.xposed.lib3c_logcat_service$a.doInBackground(Unknown Source:2)
+07-07 15:18:22.446  2237  2246 W 3c.db   : 	at lib3c.controls.xposed.lib3c_logcat_service$a.doInBackground(Unknown Source:2)
+07-07 15:18:22.446  2237  2246 W 3c.db   : 	at c.ug2$c.call(Unknown Source:23)
+07-07 15:18:22.446  2237  2246 W 3c.db   : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+07-07 15:18:22.446  2237  2246 W 3c.db   : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+07-07 15:18:22.446  2237  2246 W 3c.db   : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+07-07 15:18:22.446  2237  2246 W 3c.db   : 	at java.lang.Thread.run(Thread.java:764)
+07-07 15:18:22.447  2237  2246 W 3c.db   : c.of2.close() was never called to clean-up resources
+07-07 15:18:22.447  2237  2246 W 3c.db   : java.lang.Exception: Process has leaked c.of2
+07-07 15:18:22.447  2237  2246 W 3c.db   : 	at c.e82.<init>(Unknown Source:32)
+07-07 15:18:22.447  2237  2246 W 3c.db   : 	at c.of2.<init>(Unknown Source:7)
+07-07 15:18:22.447  2237  2246 W 3c.db   : 	at c.nf2.u(Unknown Source:17)
+07-07 15:18:22.447  2237  2246 W 3c.db   : 	at c.nf2.H(Unknown Source:0)
+07-07 15:18:22.447  2237  2246 W 3c.db   : 	at lib3c.application.lib3c_application$a.runThread(Unknown Source:17)
+07-07 15:18:22.447  2237  2246 W 3c.db   : 	at c.gh2.run(Unknown Source:2)
+07-07 15:18:22.451  2237  2258 W 3c.app.tb: Removing shortcut Graphics: API != 23
+07-07 15:18:22.451  2237  2258 W 3c.app.tb: Removing shortcut Wi-Fi AP: API < 23
+07-07 15:18:22.459  2237  2258 W 3c.app.tb: Removing shortcut GPU: no GPU
+07-07 15:18:22.460  2237  2258 W 3c.app.tb: Removing shortcut Times: no TIMES
+07-07 15:18:22.460  2237  2258 D 3c.control: max_cpu Read valid core for max cpu
+07-07 15:18:22.460  2237  2258 D 3c.control: max_cpu Read valid core: 0-3
+07-07 15:18:22.460  2237  2258 D 3c.control: max_cpu Read single core: 0 from 0
+07-07 15:18:22.460  2237  2258 D 3c.control: max_cpu Read single core: 3 from 3
+07-07 15:18:22.460  2237  2258 W 3c.app.tb: Removing shortcut Voltage: no VOLTAGE
+07-07 15:18:22.462  2237  2258 W 3c.app.tb: Removing shortcut Thermal: no THERMAL
+07-07 15:18:22.462  2237  2258 W 3c.app.tb: Removing shortcut MPDecision: no MP
+07-07 15:18:22.466  2237  2258 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_r
+07-07 15:18:22.466  2237  2258 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_g
+07-07 15:18:22.466  2237  2258 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_b
+07-07 15:18:22.466  2237  2258 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_ctrl
+07-07 15:18:22.466  2237  2258 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal
+07-07 15:18:22.466  2237  2258 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal_ctrl
+07-07 15:18:22.466  2237  2258 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/refresh_screen
+07-07 15:18:22.466  2237  2258 D 3c.control: Checking availability: /sys/class/misc/colorcontrol/multiplier_disabled
+07-07 15:18:22.466  2237  2258 W 3c.app.tb: Removing shortcut Gamma: no GAMMA
+07-07 15:18:22.467  2237  2258 D 3c.control: Checking availability: /sys/kernel/sound_control/cam_mic_gain
+07-07 15:18:22.467  2237  2258 D 3c.control: Checking availability: /sys/kernel/sound_control/headphone_gain
+07-07 15:18:22.467  2237  2258 D 3c.control: Checking availability: /sys/kernel/sound_control/mic_gain
+07-07 15:18:22.467  2237  2258 D 3c.control: Checking availability: /sys/kernel/sound_control/speaker_gain
+07-07 15:18:22.468  2237  2258 D 3c.control: Checking availability: /sys/kernel/sound_control/gpl_sound_control_locked
+07-07 15:18:22.468  2237  2258 W 3c.app.tb: Removing shortcut Sound: no SOUND
+07-07 15:18:22.475  2237  2258 W 3c.ui.utils: Done initializing shortcuts
+07-07 15:18:22.477  2237  2258 D 3c.widgets: Enumerating existing widgets...
+07-07 15:18:22.478  2237  2274 I 3c.processes: Found 28 processes in 49 milliseconds!
+07-07 15:18:22.478  2237  2274 W 3c.xposed: LogcatService: Starting filter  -b events -v brief  *:s (preview: 0)
+07-07 15:18:22.478  2237  2274 D 3c.lib  : logcat binary found in /system/bin
+07-07 15:18:22.478  2237  2258 D 3c.widgets: Recovered 0 widget(s)
+07-07 15:18:22.478  2237  2258 W 3c.widgets: has refreshable widgets: false
+07-07 15:18:22.479   529  1829 D PackageManager: Ephemeral installer not found with new action; try old one
+07-07 15:18:22.479   529  1829 D PackageManager: Clear ephemeral installer activity
+07-07 15:18:22.479  2237  2237 W 3c.widgets: has refreshable widgets: false
+07-07 15:18:22.479  2237  2237 I 3c.widgets: Widgets service started but not needed!
+07-07 15:18:22.480  2237  2237 W 3c.widgets: has refreshable widgets: false
+07-07 15:18:22.480  2277  2277 E linker  : "/system/bin/logcat": ignoring DT_PREINIT_ARRAY in shared library!
+07-07 15:18:22.491  2237  2274 D 3c.lib  : su binary found in /system/bin
+07-07 15:18:22.491  2237  2274 D 3c.lib  : logcat binary found in /system/bin
+07-07 15:18:22.492  2237  2274 W 3c.lib  : Registered debug process Process[pid=2278, hasExited=false]
+07-07 15:18:22.528  2270  2270 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:18:22.565  2270  2270 W /system/bin/app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:18:22.567  2270  2270 I /system/bin/app_process: The ClassLoaderContext is a special shared library.
+07-07 15:18:22.582  2270  2270 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+07-07 15:18:22.592  2270  2270 D AndroidRuntime: Shutting down VM
+07-07 15:18:22.618  2285  2285 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:18:22.648  2285  2285 W /system/bin/app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:18:22.649  2285  2285 I /system/bin/app_process: The ClassLoaderContext is a special shared library.
+07-07 15:18:22.658  2285  2285 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+07-07 15:18:22.666  2285  2285 D AndroidRuntime: Shutting down VM
+07-07 15:18:22.730  2237  2274 D 3c.xposed: LogcatService: Top package is ok : null
+07-07 15:18:22.744   529  1923 D         : HostConnection::get() New Host Connection established 0xd3793870, pid 529, tid 1923
+07-07 15:18:22.746   461  2304 D local_opengl: Sending id 26 to host
+07-07 15:18:22.747   529  1923 D         : HostComposition ext ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_async_unmap_buffer ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_1 
+07-07 15:18:22.749   529  1923 I system_server: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+07-07 15:18:22.749   529  1923 I OpenGLRenderer: Initialized EGL, version 1.4
+07-07 15:18:22.749   529  1923 D OpenGLRenderer: Swap behavior 1
+07-07 15:18:22.749   529  1923 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-07 15:18:22.749   529  1923 D OpenGLRenderer: Swap behavior 0
+07-07 15:18:22.749   529  1923 D EGL_emulation: eglCreateContext: 0xcdf6a240: maj 3 min 1 rcv 4
+07-07 15:18:22.764   529  1923 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008f38
+07-07 15:18:22.764   529  1923 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008f38
+07-07 15:18:22.764   529  1923 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ca
+07-07 15:18:22.764   529  1923 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ca
+07-07 15:18:22.764   529  1923 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ce
+07-07 15:18:22.765   529  1923 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ce
+07-07 15:18:22.765   529  1923 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090cf
+07-07 15:18:22.765   529  1923 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090cf
+07-07 15:18:23.627  1417  1876 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+07-07 15:18:23.627  1417  1417 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+07-07 15:18:23.628  1417  1417 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+07-07 15:18:23.628  1417  1417 I Dialer  : VvmTaskReceiver - task received
+07-07 15:18:23.628  1417  1417 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+07-07 15:18:23.628  1417  1417 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+07-07 15:18:23.628  1417  1417 I Dialer  : RetryPolicy - retry #2 for com.android.voicemail.impl.ActivationTask@fd59c66 queued, executing in 5000
+07-07 15:18:23.628  1417  1417 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@fd59c66 added
+07-07 15:18:23.628  1417  1417 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+07-07 15:18:23.628  1417  1417 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+07-07 15:18:23.949   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@399531a
+07-07 15:18:23.949  1656  2210 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:18:23.959   482   482 D SurfaceFlinger: duplicate layer name: changing Toast to Toast#1
+07-07 15:18:24.790   529   650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-07 15:18:24.918   220   253 W genymotion_audio: Not supplying enough data to HAL, expected position 759636 , only wrote 534960
+07-07 15:18:25.952   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@b272ed
+07-07 15:18:25.953  1656  2210 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:18:26.464   217   217 I redis   : type=1400 audit(0.0:1304): avc: denied { read } for path="socket:[11975]" dev="sockfs" ino=11975 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:18:26.464   217   217 I redis   : type=1400 audit(0.0:1305): avc: denied { write } for path="socket:[11975]" dev="sockfs" ino=11975 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:18:26.464   485   485 I vinput  : type=1400 audit(0.0:1306): avc: denied { read } for path="socket:[15443]" dev="sockfs" ino=15443 scontext=u:r:vinput:s0 tcontext=u:r:vinput:s0 tclass=tcp_socket permissive=1
+07-07 15:18:26.480  2111  2111 D 3c.ui   : xk1.onHidden()
+07-07 15:18:26.476   529   529 I Binder:529_5: type=1400 audit(0.0:1307): avc: denied { write } for name="timerslack_ns" dev="proc" ino=19496 scontext=u:r:system_server:s0 tcontext=u:r:priv_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:18:26.611  2111  2140 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:18:26.620   482   482 E EGL_emulation: tid 482: eglCreateSyncKHR(2094): error 0x3004 (EGL_BAD_ATTRIBUTE)
+07-07 15:18:26.696   529   529 I PackageManager: type=1400 audit(0.0:1308): avc: denied { write } for name="timerslack_ns" dev="proc" ino=26893 scontext=u:r:system_server:s0 tcontext=u:r:platform_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:18:26.854   529   546 I ActivityManager: Killing 1629:com.android.packageinstaller/u0a21 (adj 906): empty #17
+07-07 15:18:26.854   529   548 W system_server: kill(-1629, 9) failed: No such process
+07-07 15:18:26.900   529   548 W system_server: kill(-1629, 9) failed: No such process
+07-07 15:18:26.900   529   548 I system_server: Successfully killed process cgroup uid 10021 pid 1629 in 46ms
+07-07 15:18:27.100  1206  1295 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+07-07 15:18:27.956   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@a29cbb3
+07-07 15:18:27.957   529   529 I ActivityManager: Killing 1527:com.android.email/u0a51 (adj 906): empty #17
+07-07 15:18:27.958   529   548 W system_server: kill(-1527, 9) failed: No such process
+07-07 15:18:27.959  1656  2210 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:18:28.000   529   548 W system_server: kill(-1527, 9) failed: No such process
+07-07 15:18:28.000   529   548 I system_server: Successfully killed process cgroup uid 10051 pid 1527 in 42ms
+07-07 15:18:28.069  2237  2306 D ProfileInstaller: Installing profile for ccc71.at.free
+07-07 15:18:28.670  1417  1876 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@fd59c66
+07-07 15:18:28.670  1417  1876 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5fef04621e9a9b41849c3df35e75799299008300], UserHandle{0} already migrated
+07-07 15:18:28.689  1417  1876 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+07-07 15:18:28.689  1417  1876 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+07-07 15:18:28.694  1417  1876 I Dialer  : TelephonyMangerCompat.setVisualVoicemailSmsFilterSettings - using TelephonyManager
+07-07 15:18:28.695  1417  1876 I Dialer  : TelephonyMangerCompat.sendVisualVoicemailSms - using TelephonyManager
+07-07 15:18:28.699   499  1710 D baseband-sms: newsms
+07-07 15:18:28.699   499  1710 D baseband-sms: sender:(N/A)
+07-07 15:18:28.699   499  1710 D baseband-sms: receiver:122
+07-07 15:18:28.699   499  1710 D baseband-sms: index:1/1
+07-07 15:18:28.699   499  1710 D baseband-sms: txt:'FQKf.Î£:etÎ”#W'
+07-07 15:18:28.692   499   499 I genybaseband: type=1400 audit(0.0:1309): avc: denied { write } for path="socket:[15520]" dev="sockfs" ino=15520 scontext=u:r:genybaseband:s0 tcontext=u:r:genybaseband:s0 tclass=tcp_socket permissive=1
+07-07 15:18:28.692   499   499 I genybaseband: type=1400 audit(0.0:1310): avc: denied { read } for path="socket:[15520]" dev="sockfs" ino=15520 scontext=u:r:genybaseband:s0 tcontext=u:r:genybaseband:s0 tclass=tcp_socket permissive=1
+07-07 15:18:29.908   529   650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-07 15:18:31.809   529   610 I InputReader: Reconfiguring input devices.  changes=0x00000010
+07-07 15:18:31.816   529   545 W VoiceInteractionManagerService: no available voice interaction services found for user 0
+07-07 15:18:31.816   529   529 I Telecom : DefaultDialerCache: Refreshing default dialer for user 0: now com.android.dialer: DDC.oR@AHQ
+07-07 15:18:31.819   868   868 D CarrierSvcBindHelper: No carrier app for: 0
+07-07 15:18:31.819   868   868 D ImsResolver: maybeAddedImsService, packageName: ccc71.at.free
+07-07 15:18:31.958  2309  2309 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:18:31.960  2309  2309 W app_process: Could not reserve sentinel fault page
+07-07 15:18:31.986  2309  2309 W app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:18:31.987  2309  2309 I app_process: The ClassLoaderContext is a special shared library.
+07-07 15:18:31.997  2309  2309 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+07-07 15:18:31.999  2309  2318 W MessageQueue: Handler (android.os.Handler) {85726f6} sending message to a Handler on a dead thread
+07-07 15:18:31.999  2309  2318 W MessageQueue: java.lang.IllegalStateException: Handler (android.os.Handler) {85726f6} sending message to a Handler on a dead thread
+07-07 15:18:31.999  2309  2318 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:545)
+07-07 15:18:31.999  2309  2318 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:662)
+07-07 15:18:31.999  2309  2318 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:631)
+07-07 15:18:31.999  2309  2318 W MessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:601)
+07-07 15:18:31.999  2309  2318 W MessageQueue: 	at android.os.Handler.post(Handler.java:357)
+07-07 15:18:31.999  2309  2318 W MessageQueue: 	at android.os.ResultReceiver$MyResultReceiver.send(ResultReceiver.java:57)
+07-07 15:18:31.999  2309  2318 W MessageQueue: 	at com.android.internal.os.IResultReceiver$Stub.onTransact(IResultReceiver.java:58)
+07-07 15:18:31.999  2309  2318 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:697)
+07-07 15:18:31.999  2309  2309 I app_process: System.exit called, status: 0
+07-07 15:18:31.999  2309  2309 I AndroidRuntime: VM exiting with result code 0.
+07-07 15:18:34.588   475   475 I android.hardwar: type=1400 audit(0.0:1311): avc: denied { write } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+07-07 15:18:34.588   475   475 I android.hardwar: type=1400 audit(0.0:1312): avc: denied { nlmsg_read } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+07-07 15:18:34.588   475   475 I android.hardwar: type=1400 audit(0.0:1313): avc: denied { read } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+07-07 15:18:38.792   378   378 I hostapd : type=1400 audit(0.0:1314): avc: denied { read } for scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=netlink_generic_socket permissive=1
+07-07 15:18:38.792   378   378 I hostapd : type=1400 audit(0.0:1315): avc: denied { write } for scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=netlink_generic_socket permissive=1
+07-07 15:18:38.792   378   378 I hostapd : type=1400 audit(0.0:1316): avc: denied { net_admin } for capability=12 scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=capability permissive=1
+07-07 15:18:46.466   529   630 D ConnectivityService: sending Proxy Broadcast for [127.0.0.1] 1337 xl=
+07-07 15:18:46.494  2378  2378 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+07-07 15:18:46.499   529  1829 I ActivityManager: Start proc 2378:opensecurity.clipdump/u0a67 for service opensecurity.clipdump/.ClipDumper
+07-07 15:18:46.500   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:18:46.500   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:18:46.510   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:18:46.510   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:18:46.504   529   529 I Binder:529_B: type=1400 audit(0.0:1317): avc: denied { write } for name="timerslack_ns" dev="proc" ino=34095 scontext=u:r:system_server:s0 tcontext=u:r:untrusted_app_25:s0:c512,c768 tclass=file permissive=1
+07-07 15:18:48.344   510   510 I healthd : type=1400 audit(0.0:1318): avc: denied { read } for name="capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:18:48.344   510   510 I healthd : type=1400 audit(0.0:1319): avc: denied { open } for path="/dev/pipe/battery/BAT0/capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:18:48.344   510   510 I healthd : type=1400 audit(0.0:1320): avc: denied { getattr } for path="/dev/pipe/battery/BAT0/capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:18:52.740   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:18:52.740   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:18:52.754   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:18:52.754   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:18:53.064   378   378 I hostapd : type=1400 audit(0.0:1321): avc: denied { net_admin } for capability=12 scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=capability permissive=1
+07-07 15:18:56.705   529  1829 D WificondControl: Scan result ready event
+07-07 15:18:57.747   529   864 D SntpClient: request time failed: java.net.SocketTimeoutException: Poll timed out
+07-07 15:19:00.001   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:19:00.001   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:19:00.019   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:19:00.019   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:19:00.027   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:19:00.027   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:19:00.033   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:19:00.033   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:19:02.496   217   217 I redis   : type=1400 audit(0.0:1322): avc: denied { read } for path="socket:[11975]" dev="sockfs" ino=11975 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:19:02.496   217   217 I redis   : type=1400 audit(0.0:1323): avc: denied { write } for path="socket:[11975]" dev="sockfs" ino=11975 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:19:02.496   485   485 I vinput  : type=1400 audit(0.0:1324): avc: denied { read } for path="socket:[15443]" dev="sockfs" ino=15443 scontext=u:r:vinput:s0 tcontext=u:r:vinput:s0 tclass=tcp_socket permissive=1
+07-07 15:19:05.126   529  1162 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ccc71.at.free/ccc71.at.at_main_popup bnds=[54,304][387,790]} from uid 10014
+07-07 15:19:05.131   220   252 W genymotion_audio: Not supplying enough data to HAL, expected position 535131 , only wrote 534960
+07-07 15:19:05.128   529   529 I Binder:529_E: type=1400 audit(0.0:1325): avc: denied { write } for name="timerslack_ns" dev="proc" ino=27082 scontext=u:r:system_server:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:19:05.143  2111  2111 I 3c.ui.utils: Preparing conf with language: en - US = en_US
+07-07 15:19:05.144  2111  2111 I 3c.ui.utils: Creating conf with language: US / en
+07-07 15:19:05.147  2111  2111 D 3c.lib  : No extras in intent Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ccc71.at.free/ccc71.at.at_main_popup bnds=[54,304][387,790] }
+07-07 15:19:05.148   529  1829 I ActivityManager: START u0 {flg=0x34000000 cmp=ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs (has extras)} from uid 10068
+07-07 15:19:05.152  2111  2111 I zygote  : Deoptimizing android.graphics.drawable.Drawable androidx.appcompat.widget.ResourceManagerInternal.createDrawableIfNeeded(android.content.Context, int) due to JIT inline cache
+07-07 15:19:05.153  2111  2111 D 3c.ui.utils: at_activity.initAll(ccc71.at.at_main_popup@e33a95f, true);
+07-07 15:19:05.154  2111  2111 I zygote  : Deoptimizing boolean androidx.appcompat.widget.TintContextWrapper.shouldWrap(android.content.Context) due to JIT inline cache
+07-07 15:19:05.155  2111  2111 I zygote  : Deoptimizing void lib3c.ui.widgets.lib3c_text_view.setText(java.lang.CharSequence, android.widget.TextView$BufferType) due to JIT inline cache
+07-07 15:19:05.155  2111  2111 I zygote  : Deoptimizing void androidx.appcompat.widget.AppCompatTextHelper.updateTypefaceAndStyle(android.content.Context, androidx.appcompat.widget.TintTypedArray) due to JIT inline cache
+07-07 15:19:05.155  2111  2111 I zygote  : Deoptimizing android.graphics.Typeface androidx.appcompat.widget.TintTypedArray.getFont(int, int, androidx.core.content.res.ResourcesCompat$FontCallback) due to JIT inline cache
+07-07 15:19:05.155  2111  2111 I zygote  : Deoptimizing android.graphics.Typeface androidx.core.content.res.ResourcesCompat.loadFont(android.content.Context, int, android.util.TypedValue, int, androidx.core.content.res.ResourcesCompat$FontCallback, android.os.Handler, boolean, boolean) due to JIT inline cache
+07-07 15:19:05.156  2111  2125 W zygote  : Checksum mismatch for dex base.apk
+07-07 15:19:05.156  2111  2125 W zygote  : Checksum mismatch for dex base.apk!classes2.dex
+07-07 15:19:05.181  2111  2111 I 3c.ui.utils: Preparing conf with language: en - US = en_US
+07-07 15:19:05.181  2111  2111 I 3c.ui.utils: Creating conf with language: US / en
+07-07 15:19:05.182  2111  2111 D 3c.ui.utils: at_activity.initAll(ccc71.at.activities.easy_tabs.at_easy_tabs@2898609, false);
+07-07 15:19:05.187  2111  2111 D 3c.ui   : addDrawer on ccc71.at.activities.easy_tabs.at_easy_tabs@2898609 / android.widget.LinearLayout{3230379 V.E...... ......I. 0,0-0,0 #7f0903e2 app:id/layoutMain}
+07-07 15:19:05.189  2111  2111 D 3c.ui   : in content frame = android.widget.FrameLayout{81572ca V.E...... ......I. 0,0-0,0 #7f09020d app:id/content_frame}
+07-07 15:19:05.189  2111  2111 D 3c.ui   : new screenWidth = 1440
+07-07 15:19:05.189  2111  2111 D 3c.ui   : result new screenWidth = 1152
+07-07 15:19:05.189  2111  2404 W 3c.ui.utils: shortcut initialized  / 103 / Main screen
+07-07 15:19:05.190  2111  2111 I zygote  : Deoptimizing void lib3c.ui.widgets.lib3c_text_view.a(android.util.AttributeSet) due to JIT inline cache
+07-07 15:19:05.193  2111  2111 W ActionBarDrawerToggle: DrawerToggle may not show up because NavigationIcon is not visible. You may need to call actionbar.setDisplayHomeAsUpEnabled(true);
+07-07 15:19:05.193  2111  2111 W 3c.ui   : resume - call_onshow set to fragment xk1{b1ca8b1} (40860faf-84f8-4f52-bbef-6f888c9fbe21)
+07-07 15:19:05.193  2111  2146 W 3c.ui.utils: shortcut initialized  / 103 / Main screen
+07-07 15:19:05.219  2111  2116 I zygote  : Do partial code cache collection, code=123KB, data=87KB
+07-07 15:19:05.219  2111  2116 I zygote  : After code cache collection, code=114KB, data=83KB
+07-07 15:19:05.219  2111  2116 I zygote  : Increasing code cache capacity to 512KB
+07-07 15:19:05.291  2111  2111 W 3c.ui.utils: Finishing init...
+07-07 15:19:05.291  2111  2111 D 3c.ui.utils: lib3c_ui_utils.initInApps
+07-07 15:19:05.291  2111  2111 D 3c.ui.utils: at_activity.initInAppPurchase(true);
+07-07 15:19:05.292  2111  2111 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:05.292  2111  2111 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:05.322   529   553 I ActivityManager: Displayed ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs: +163ms (total +188ms)
+07-07 15:19:05.320   461   461 I local_opengl: type=1400 audit(0.0:1326): avc: denied { write } for laddr=192.168.56.102 lport=22468 faddr=192.168.56.1 fport=60458 scontext=u:r:local_opengl:s0 tcontext=u:r:local_opengl:s0 tclass=tcp_socket permissive=1
+07-07 15:19:05.320   461   461 I local_opengl: type=1400 audit(0.0:1327): avc: denied { read } for laddr=192.168.56.102 lport=22468 faddr=192.168.56.1 fport=60458 scontext=u:r:local_opengl:s0 tcontext=u:r:local_opengl:s0 tclass=tcp_socket permissive=1
+07-07 15:19:05.346  1206  1295 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:19:05.706  2111  2111 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:07.405  2237  2252 W zygote  : Checksum mismatch for dex base.apk
+07-07 15:19:07.405  2237  2252 W zygote  : Checksum mismatch for dex base.apk!classes2.dex
+07-07 15:19:07.722   529  1162 I ActivityManager: START u0 {act=android.intent.action.MAIN flg=0x34000000 cmp=ccc71.at.free/ccc71.at.activities.device.at_device_tabs} from uid 10068
+07-07 15:19:07.727  2111  2111 D 3c.ui   : xk1.onHidden()
+07-07 15:19:07.731   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:19:07.731   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:19:07.736  2111  2111 I 3c.ui.utils: Preparing conf with language: en - US = en_US
+07-07 15:19:07.736  2111  2111 I 3c.ui.utils: Creating conf with language: US / en
+07-07 15:19:07.738  2111  2111 D 3c.ui.utils: at_activity.initAll(ccc71.at.activities.device.at_device_tabs@63ef36e, false);
+07-07 15:19:07.739  2111  2111 I zygote  : Deoptimizing android.graphics.drawable.Drawable androidx.appcompat.widget.ResourceManagerInternal.createDrawableIfNeeded(android.content.Context, int) due to JIT inline cache
+07-07 15:19:07.741  2111  2111 D 3c.ui   : addDrawer on ccc71.at.activities.device.at_device_tabs@63ef36e / android.widget.LinearLayout{21e2059 V.E...... ......I. 0,0-0,0 #7f0903e2 app:id/layoutMain}
+07-07 15:19:07.741  2111  2111 D 3c.ui   : in content frame = android.widget.FrameLayout{2ea542a V.E...... ......I. 0,0-0,0 #7f09020d app:id/content_frame}
+07-07 15:19:07.741  2111  2111 I zygote  : Deoptimizing void c.ki2.y(android.content.Context, android.view.ViewGroup, float, float) due to JIT inline cache
+07-07 15:19:07.741  2111  2111 D 3c.ui   : new screenWidth = 1440
+07-07 15:19:07.741  2111  2111 D 3c.ui   : result new screenWidth = 1152
+07-07 15:19:07.741  2111  2144 W 3c.ui.utils: shortcut initialized  / 103 / Main screen
+07-07 15:19:07.747  2111  2111 I zygote  : Deoptimizing android.content.Context androidx.appcompat.widget.TintContextWrapper.wrap(android.content.Context) due to JIT inline cache
+07-07 15:19:07.747  2111  2111 I zygote  : Deoptimizing android.graphics.Typeface androidx.core.content.res.ResourcesCompat.loadFont(android.content.Context, int, android.util.TypedValue, int, androidx.core.content.res.ResourcesCompat$FontCallback, android.os.Handler, boolean, boolean) due to JIT inline cache
+07-07 15:19:07.747  2111  2111 I zygote  : Deoptimizing boolean androidx.appcompat.widget.TintContextWrapper.shouldWrap(android.content.Context) due to JIT inline cache
+07-07 15:19:07.748  2111  2111 W ActionBarDrawerToggle: DrawerToggle may not show up because NavigationIcon is not visible. You may need to call actionbar.setDisplayHomeAsUpEnabled(true);
+07-07 15:19:07.749  2111  2111 W 3c.ui   : resume - call_onshow set to fragment jg1{5e6d21b} (4c30343a-f61d-427f-9253-49bd124bc9b6)
+07-07 15:19:07.750  2111  2189 W 3c.ui.utils: shortcut initialized  / 103 / Main screen
+07-07 15:19:07.750  2111  2111 W 3c.ui.utils: Finishing init...
+07-07 15:19:07.750  2111  2111 D 3c.ui.utils: lib3c_ui_utils.initInApps
+07-07 15:19:07.750  2111  2111 D 3c.ui.utils: at_activity.initInAppPurchase(true);
+07-07 15:19:07.760  2111  2111 I chatty  : uid=10068 ccc71.at.free:ui identical 2 lines
+07-07 15:19:07.756  2183  2183 I liblib3c.so: type=1400 audit(0.0:1328): avc: denied { getattr } for path="/proc/stat" dev="proc" ino=4026531989 scontext=u:r:su_daemon:s0 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+07-07 15:19:07.756  2183  2183 I liblib3c.so: type=1400 audit(0.0:1329): avc: denied { read } for name="stat" dev="proc" ino=4026531989 scontext=u:r:su_daemon:s0 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+07-07 15:19:07.756  2183  2183 I liblib3c.so: type=1400 audit(0.0:1330): avc: denied { open } for path="/proc/stat" dev="proc" ino=4026531989 scontext=u:r:su_daemon:s0 tcontext=u:object_r:proc_stat:s0 tclass=file permissive=1
+07-07 15:19:07.756  2183  2183 I liblib3c.so: type=1400 audit(0.0:1331): avc: denied { write } for path="pipe:[27965]" dev="pipefs" ino=27965 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=fifo_file permissive=1
+07-07 15:19:07.756  2183  2183 I liblib3c.so: type=1400 audit(0.0:1332): avc: denied { read } for path="pipe:[27964]" dev="pipefs" ino=27964 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=fifo_file permissive=1
+07-07 15:19:07.768  2183  2183 I liblib3c.so: type=1400 audit(0.0:1333): avc: denied { getattr } for path="/proc/uptime" dev="proc" ino=4026531990 scontext=u:r:su_daemon:s0 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+07-07 15:19:07.768  2183  2183 I liblib3c.so: type=1400 audit(0.0:1334): avc: denied { read } for name="uptime" dev="proc" ino=4026531990 scontext=u:r:su_daemon:s0 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+07-07 15:19:07.768  2183  2183 I liblib3c.so: type=1400 audit(0.0:1335): avc: denied { open } for path="/proc/uptime" dev="proc" ino=4026531990 scontext=u:r:su_daemon:s0 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+07-07 15:19:07.768  2183  2183 I liblib3c.so: type=1400 audit(0.0:1336): avc: denied { use } for path="pipe:[27965]" dev="pipefs" ino=27965 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=fd permissive=1
+07-07 15:19:07.778  2111  2146 D 3c.processes: Got start times 2023-07-07_15-16 since 3m
+07-07 15:19:07.778  2111  2146 D 3c.processes: Got real start times 2023-07-07_15-16 since 3m
+07-07 15:19:07.778  2111  2144 D 3c.processes: Got start times 2023-07-07_15-16 since 3m
+07-07 15:19:07.778  2111  2144 D 3c.processes: Got real start times 2023-07-07_15-16 since 3m
+07-07 15:19:07.779  2111  2144 W 3c.services: Binding to null / ComponentInfo{ccc71.at.free/ccc71.at.services.at_service}
+07-07 15:19:07.780  2237  2237 D 3c.app.bm: Received binding from client, creating remote service interface
+07-07 15:19:07.830  2111  2111 I zygote  : Deoptimizing android.view.View c.cd2.d(int, android.view.View, android.view.ViewGroup) due to JIT inline cache
+07-07 15:19:07.839  2111  2111 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:07.842  2111  2111 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:07.884   529   553 I ActivityManager: Displayed ccc71.at.free/ccc71.at.activities.device.at_device_tabs: +155ms
+07-07 15:19:07.888  2237  2407 W 3c.app.bm: Cannot find capacity file or matching model in internal DB, using power profile data 1000
+07-07 15:19:07.888  2237  2407 W 3c.app.bm: Got battery override capacity: 0
+07-07 15:19:07.888  2237  2407 W 3c.app.bm: Got battery user capacity: 1500
+07-07 15:19:07.888  2237  2407 W 3c.app.bm: Got battery capacity: 1500
+07-07 15:19:07.890  2237  2407 E 3c.settings: Prefs prefskey.watch.id default -1
+07-07 15:19:07.890  2237  2407 D 3c.notifications: Got notifications packages: 
+07-07 15:19:07.891  2111  2144 D 3c.apps : Total memory: 3074436
+07-07 15:19:07.895  2237  2407 D 3c.notifications: Got notifications packages: 
+07-07 15:19:07.895  2237  2407 D 3c.notifications: Got notifications packages: 
+07-07 15:19:07.895  2237  2407 I 3c.app.bm: NOT Notifying new external battery notifications 0 / 0
+07-07 15:19:07.896  2237  2407 W 3c.screen: Registered lib3c_screen_receiver (screen true)
+07-07 15:19:07.910  2237  2407 D 3c.app.battery: Loading 0 records between Jul 7, 2023 9:19 AM and Jul 7, 2023 3:19 PM
+07-07 15:19:07.911  2237  2237 D 3c.app.bm: at_battery_receiver got intent Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }
+07-07 15:19:07.912  2237  2407 I 3c.app.bm: Got initial Intent android.intent.action.BATTERY_CHANGED
+07-07 15:19:07.913  2237  2407 W 3c.app.bm: Registered at_battery_receiver
+07-07 15:19:07.915  2237  2408 W 3c.app.bm: Update mA 0 at 100% - 0.0Â°C
+07-07 15:19:07.915  2237  2408 W 3c.app.bm: Full reset plugged estimation
+07-07 15:19:07.919  2237  2408 D 3c.app.bm: at_battery_receiver notify true / false
+07-07 15:19:07.919  2237  2237 W 3c.widgets: Total data sources 0 in {}
+07-07 15:19:07.933  2111  2111 I 3c.apps : Network stats using API: 0
+07-07 15:19:07.928  2183  2183 I liblib3c.so: type=1400 audit(0.0:1337): avc: denied { getattr } for path="/proc/2183/net/dev" dev="proc" ino=4026531977 scontext=u:r:su_daemon:s0 tcontext=u:object_r:proc_net:s0 tclass=file permissive=1
+07-07 15:19:07.934  2111  2111 D 3c.apps : New network stats: 159262635 / 312901205 from 115847684
+07-07 15:19:07.955  2111  2140 D OpenGLRenderer: endAllActiveAnimators on 0xd0b9e580 (RippleDrawable) with handle 0xe4483850
+07-07 15:19:08.255  2111  2409 W 3c.services: Set UI receiving to ccc71.at.refresh.profile on yf1{5028191} (4d9437fa-dea6-49f8-b7b9-046ea0ba7d51 id=0x7f09063c tag=android:switcher:2131297852:2)
+07-07 15:19:08.256  2111  2409 W 3c.services: Binding to null / ComponentInfo{ccc71.at.free/lib3c.services.ui_service}
+07-07 15:19:08.267  2111  2111 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:08.651   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@cb13cde
+07-07 15:19:08.776  2111  2189 D 3c.processes: Got start times 2023-07-07_15-16 since 3m
+07-07 15:19:08.776  2111  2189 D 3c.processes: Got real start times 2023-07-07_15-16 since 3m
+07-07 15:19:08.777  2111  2111 D 3c.apps : New network stats: 259199 / 20974 from 115847684
+07-07 15:19:09.244   529   650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-07 15:19:09.776  2111  2256 D 3c.processes: Got start times 2023-07-07_15-16 since 3m
+07-07 15:19:09.776  2111  2256 D 3c.processes: Got real start times 2023-07-07_15-16 since 3m
+07-07 15:19:09.780  2111  2111 D 3c.apps : New network stats: 923774 / 36806 from 115847684
+07-07 15:19:10.776  2111  2404 D 3c.processes: Got start times 2023-07-07_15-16 since 3m
+07-07 15:19:10.777  2111  2404 D 3c.processes: Got real start times 2023-07-07_15-16 since 3m
+07-07 15:19:10.781  2111  2111 D 3c.apps : New network stats: 854238 / 18636 from 115847684
+07-07 15:19:10.936   220   253 W genymotion_audio: Not supplying enough data to HAL, expected position 1090149 , only wrote 813600
+07-07 15:19:11.435  2111  2111 D 3c.ui   : jg1.onHidden()
+07-07 15:19:11.436  2237  2250 W 3c.app.bm: UNregistered at_battery_receiver
+07-07 15:19:11.436  2237  2250 W 3c.screen: UNregistered lib3c_screen_receiver
+07-07 15:19:11.438  2111  2111 W 3c.ui   : Get current page: info
+07-07 15:19:11.438  2237  2237 D 3c.app.bm: No more client binded
+07-07 15:19:11.442  2111  2143 W 3c.settings: Commiting 1 shared preferences
+07-07 15:19:11.445  2111  2146 W 3c.ui.utils: shortcut initialized  / 103 / Main screen
+07-07 15:19:11.786  2111  2410 E 3c.services: Remove UI receiving for ccc71.at.refresh.profile
+07-07 15:19:11.787  2111  2410 W 3c.services: Binding to null / ComponentInfo{ccc71.at.free/lib3c.services.ui_service}
+07-07 15:19:11.792  2111  2116 I zygote  : Do full code cache collection, code=252KB, data=181KB
+07-07 15:19:11.792  2111  2116 I zygote  : After code cache collection, code=232KB, data=145KB
+07-07 15:19:14.801   529   650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-07 15:19:22.343   529   540 I ActivityManager: Force stopping ccc71.at.free appid=10068 user=0: from pid 2420
+07-07 15:19:22.343   529   540 I ActivityManager: Killing 2111:ccc71.at.free:ui/u0a68 (adj 0): stop ccc71.at.free
+07-07 15:19:22.343   529   540 W ActivityManager: Force removing ActivityRecord{9b6bebf u0 ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs t9}: app died, no saved state
+07-07 15:19:22.344   529   548 W system_server: kill(-2111, 9) failed: No such process
+07-07 15:19:22.345   529   540 I WindowManager: Failed to capture screenshot of Token{7a7998c ActivityRecord{9b6bebf u0 ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs t9 f}} appWin=Window{9b7c6b7 u0 ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs} drawState=4
+07-07 15:19:22.349   529   540 I ActivityManager: Killing 2237:ccc71.at.free/u0a68 (adj 500): stop ccc71.at.free
+07-07 15:19:22.349   529   540 W ActivityManager: Scheduling restart of crashed service ccc71.at.free/lib3c.controls.xposed.lib3c_logcat_service in 1000ms
+07-07 15:19:22.351   529   540 I ActivityManager:   Force stopping service ServiceRecord{8ff707d u0 ccc71.at.free/lib3c.controls.xposed.lib3c_logcat_service}
+07-07 15:19:22.356   868   868 D CarrierSvcBindHelper: No carrier app for: 0
+07-07 15:19:22.365   529   553 W ActivityManager: setHasOverlayUi called on unknown pid: 2111
+07-07 15:19:22.388   529   548 W system_server: kill(-2111, 9) failed: No such process
+07-07 15:19:22.388   529   548 I system_server: Successfully killed process cgroup uid 10068 pid 2111 in 44ms
+07-07 15:19:22.388   529   548 W system_server: kill(-2237, 9) failed: No such process
+07-07 15:19:22.433   529   548 W system_server: kill(-2237, 9) failed: No such process
+07-07 15:19:22.434   529   548 I system_server: Successfully killed process cgroup uid 10068 pid 2237 in 45ms
+07-07 15:19:22.781  2428  2428 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:19:22.784  2428  2428 W app_process: Could not reserve sentinel fault page
+07-07 15:19:22.812  2428  2428 W app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:19:22.814  2428  2428 I app_process: The ClassLoaderContext is a special shared library.
+07-07 15:19:22.824  2428  2428 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+07-07 15:19:22.825  2428  2428 W Monkey  : args: [-p, ccc71.at.free, -c, android.intent.category.LAUNCHER, 1]
+07-07 15:19:22.825  2428  2428 W Monkey  :  arg: "-p"
+07-07 15:19:22.825  2428  2428 W Monkey  :  arg: "ccc71.at.free"
+07-07 15:19:22.825  2428  2428 W Monkey  :  arg: "-c"
+07-07 15:19:22.825  2428  2428 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+07-07 15:19:22.825  2428  2428 W Monkey  :  arg: "1"
+07-07 15:19:22.825  2428  2428 W Monkey  : data="ccc71.at.free"
+07-07 15:19:22.825  2428  2428 W Monkey  : data="android.intent.category.LAUNCHER"
+07-07 15:19:22.832   529   546 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{128c27f u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{6d7b24c 2428 (unknown name)/0/u-1 remote:28661d9}: process gone or crashing
+07-07 15:19:22.835   529  2423 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ccc71.at.free/ccc71.at.at_main_popup} from uid 0
+07-07 15:19:22.835   529  2423 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+07-07 15:19:22.835   529  2423 W Binder  : java.lang.Throwable
+07-07 15:19:22.835   529  2423 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+07-07 15:19:22.835   529  2423 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:172)
+07-07 15:19:22.835   529  2423 W Binder  : 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:449)
+07-07 15:19:22.835   529  2423 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:278)
+07-07 15:19:22.835   529  2423 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:817)
+07-07 15:19:22.835   529  2423 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4590)
+07-07 15:19:22.835   529  2423 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4577)
+07-07 15:19:22.835   529  2423 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:121)
+07-07 15:19:22.835   529  2423 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2977)
+07-07 15:19:22.835   529  2423 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+07-07 15:19:22.838  2428  2428 I Monkey  : Events injected: 1
+07-07 15:19:22.843  2438  2438 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+07-07 15:19:22.851   529   541 I ActivityManager: Start proc 2438:ccc71.at.free:ui/u0a68 for activity ccc71.at.free/ccc71.at.at_main_popup
+07-07 15:19:22.848   529   529 I Binder:529_4: type=1400 audit(0.0:1338): avc: denied { write } for name="timerslack_ns" dev="proc" ino=32988 scontext=u:r:system_server:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:19:22.848   529   529 I Binder:529_4: type=1400 audit(0.0:1339): avc: denied { write } for name="timerslack_ns" dev="proc" ino=19496 scontext=u:r:system_server:s0 tcontext=u:r:priv_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:19:22.855  2428  2428 I Monkey  : ## Network stats: elapsed time=4ms (0ms mobile, 0ms wifi, 4ms not connected)
+07-07 15:19:22.856  2428  2428 I com.android.commands.monkey: System.exit called, status: 0
+07-07 15:19:22.856  2428  2428 I AndroidRuntime: VM exiting with result code 0.
+07-07 15:19:22.864  2438  2438 I MultiDex: VM with version 2.1.0 has multidex support
+07-07 15:19:22.864  2438  2438 I MultiDex: Installing application
+07-07 15:19:22.864  2438  2438 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+07-07 15:19:22.871  2438  2457 D libEGL  : Emulator has host GPU support, qemu.gles is set to 1.
+07-07 15:19:22.864  2438  2438 I ccc71.at.free:ui: type=1400 audit(0.0:1340): avc: denied { write } for comm=45474C20496E6974 name="property_service" dev="tmpfs" ino=9255 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1
+07-07 15:19:22.864  2438  2438 I ccc71.at.free:ui: type=1400 audit(0.0:1341): avc: denied { connectto } for comm=45474C20496E6974 path="/dev/socket/property_service" scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1
+07-07 15:19:22.872  2438  2457 D vndksupport: Loading /vendor/lib/egl/libGLES_emulation.so from current namespace instead of sphal namespace.
+07-07 15:19:22.875  2438  2457 E libEGL  : load_driver(/vendor/lib/egl/libGLES_emulation.so): dlopen failed: library "/vendor/lib/egl/libGLES_emulation.so" not found
+07-07 15:19:22.875  2438  2457 D vndksupport: Loading /vendor/lib/egl/libEGL_emulation.so from current namespace instead of sphal namespace.
+07-07 15:19:22.877  2438  2456 W 3c.settings: Loaded 10 shared preference settings
+07-07 15:19:22.877  2438  2456 W 3c.lib  : Loading exception handler onto file /storage/emulated/0/Android/data/ccc71.at.free/support/crash_reports.txt
+07-07 15:19:22.877  2438  2456 E 3c.lib  : Checking isUI thread
+07-07 15:19:22.878  2438  2456 I 3c.lib  : Checking isUI (from AM):true - ccc71.at.free:ui
+07-07 15:19:22.878  2438  2456 W 3c.ui.utils: shortcut initialized  / 0 / empty
+07-07 15:19:22.878  2438  2456 W 3c.ui.utils: Loading language into shortcuts initializer
+07-07 15:19:22.878  2438  2456 W 3c.ui.utils: Loaded language into shortcuts initializer: en_US
+07-07 15:19:22.882  2438  2438 I 3c.ui.utils: Preparing conf with language: en - US = en_US
+07-07 15:19:22.884  2438  2457 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+07-07 15:19:22.884  2438  2457 D vndksupport: Loading /vendor/lib/egl/libGLESv1_CM_emulation.so from current namespace instead of sphal namespace.
+07-07 15:19:22.885  2438  2438 I 3c.ui.utils: Creating conf with language: US / en
+07-07 15:19:22.886  2438  2457 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+07-07 15:19:22.887  2438  2438 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+07-07 15:19:22.891  2438  2457 D vndksupport: Loading /vendor/lib/egl/libGLESv2_emulation.so from current namespace instead of sphal namespace.
+07-07 15:19:22.894  2438  2457 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+07-07 15:19:22.895  2438  2456 W 3c.lib  : Trying to gain root access, remaining attempts: 1
+07-07 15:19:22.895  2438  2456 W 3c.lib  : Running lib as root: /data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86/liblib3c.so
+07-07 15:19:22.892  2458  2458 I Thread-2: type=1400 audit(0.0:1342): avc: denied { execute } for name="su" dev="sda6" ino=2766 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:su_exec:s0 tclass=file permissive=1
+07-07 15:19:22.896  2458  2458 I Thread-2: type=1400 audit(0.0:1343): avc: denied { read open } for path="/system/xbin/su" dev="sda6" ino=2766 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:su_exec:s0 tclass=file permissive=1
+07-07 15:19:22.903  2438  2438 D 3c.lib  : No extras in intent Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ccc71.at.free/ccc71.at.at_main_popup }
+07-07 15:19:22.896  2458  2458 I Thread-2: type=1400 audit(0.0:1344): avc: denied { execute_no_trans } for path="/system/xbin/su" dev="sda6" ino=2766 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:su_exec:s0 tclass=file permissive=1
+07-07 15:19:22.900  2459  2459 I su      : type=1400 audit(0.0:1345): avc: denied { write } for name="server" dev="tmpfs" ino=9803 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:device:s0 tclass=sock_file permissive=1
+07-07 15:19:22.900  2459  2459 I su      : type=1400 audit(0.0:1346): avc: denied { connectto } for path="/dev/com.genymotion.superuser.daemon/server" scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:su_daemon:s0 tclass=unix_stream_socket permissive=1
+07-07 15:19:22.900  2461  2461 I su      : type=1400 audit(0.0:1347): avc: denied { sys_ptrace } for capability=19 scontext=u:r:su_daemon:s0 tcontext=u:r:su_daemon:s0 tclass=capability permissive=1
+07-07 15:19:22.900  2461  2461 I su      : type=1400 audit(0.0:1348): avc: denied { read } for scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:19:22.900  2461  2461 I su      : type=1400 audit(0.0:1349): avc: denied { search } for name="2459" dev="proc" ino=32130 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=dir permissive=1
+07-07 15:19:22.900  2461  2461 I su      : type=1400 audit(0.0:1350): avc: denied { read } for name="exe" dev="proc" ino=34253 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=lnk_file permissive=1
+07-07 15:19:22.904   529   780 I ActivityManager: START u0 {flg=0x34000000 cmp=ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs (has extras)} from uid 10068
+07-07 15:19:22.900  2463  2463 I su      : type=1400 audit(0.0:1351): avc: denied { open } for path="/proc/2438/cmdline" dev="proc" ino=34229 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:19:22.900  2463  2463 I su      : type=1400 audit(0.0:1352): avc: denied { search } for name="com.genymotion.superuser" dev="sdb3" ino=81703 scontext=u:r:su_daemon:s0 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=1
+07-07 15:19:22.900  2463  2463 I su      : type=1400 audit(0.0:1353): avc: denied { getattr } for path="/data/data/com.genymotion.superuser" dev="sdb3" ino=81703 scontext=u:r:su_daemon:s0 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=1
+07-07 15:19:22.900  2463  2463 I su      : type=1400 audit(0.0:1354): avc: denied { setattr } for name="com.genymotion.superuser" dev="tmpfs" ino=26284 scontext=u:r:su_daemon:s0 tcontext=u:object_r:device:s0 tclass=dir permissive=1
+07-07 15:19:22.900  2463  2463 I su      : type=1400 audit(0.0:1355): avc: denied { chown } for capability=0 scontext=u:r:su_daemon:s0 tcontext=u:r:su_daemon:s0 tclass=capability permissive=1
+07-07 15:19:22.900  2463  2463 I su      : type=1400 audit(0.0:1356): avc: denied { setgid } for capability=6 scontext=u:r:su_daemon:s0 tcontext=u:r:su_daemon:s0 tclass=capability permissive=1
+07-07 15:19:22.900  2463  2463 I su      : type=1400 audit(0.0:1357): avc: denied { setuid } for capability=7 scontext=u:r:su_daemon:s0 tcontext=u:r:su_daemon:s0 tclass=capability permissive=1
+07-07 15:19:22.900  2464  2464 I su      : type=1400 audit(0.0:1359): avc: denied { execute } for name="app_process32" dev="sda6" ino=338 scontext=u:r:su_daemon:s0 tcontext=u:object_r:zygote_exec:s0 tclass=file permissive=1
+07-07 15:19:22.900  2463  2463 I su      : type=1400 audit(0.0:1358): avc: denied { execute } for name="sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:19:22.900  2463  2463 I su      : type=1400 audit(0.0:1360): avc: denied { read open } for path="/system/bin/sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:19:22.900  2463  2463 I su      : type=1400 audit(0.0:1361): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:19:22.900  2464  2464 I su      : type=1400 audit(0.0:1362): avc: denied { read open } for path="/system/bin/app_process32" dev="sda6" ino=338 scontext=u:r:su_daemon:s0 tcontext=u:object_r:zygote_exec:s0 tclass=file permissive=1
+07-07 15:19:22.900  2464  2464 I su      : type=1400 audit(0.0:1363): avc: denied { execute_no_trans } for path="/system/bin/app_process32" dev="sda6" ino=338 scontext=u:r:su_daemon:s0 tcontext=u:object_r:zygote_exec:s0 tclass=file permissive=1
+07-07 15:19:22.909  2438  2438 D 3c.ui.utils: at_activity.initAll(ccc71.at.at_main_popup@be55b42, true);
+07-07 15:19:22.918  2438  2456 W 3c.lib  : Got root access, resetting attempts
+07-07 15:19:22.926  2438  2456 W 3c.app.tb: Removing shortcut Usage: API != 22
+07-07 15:19:22.926  1206  1295 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+07-07 15:19:22.926  2438  2456 W 3c.app.tb: Removing shortcut Optimization: API != 23
+07-07 15:19:22.944  2438  2456 W 3c.app.tb: Removing shortcut Graphics: API != 23
+07-07 15:19:22.944  2438  2456 W 3c.app.tb: Removing shortcut Wi-Fi AP: API < 23
+07-07 15:19:22.945  2438  2468 D OpenGLRenderer: Skia GL Pipeline
+07-07 15:19:22.953  2438  2456 W 3c.app.tb: Removing shortcut GPU: no GPU
+07-07 15:19:22.953  2438  2456 W 3c.app.tb: Removing shortcut Times: no TIMES
+07-07 15:19:22.954  2438  2456 D 3c.control: max_cpu Read valid core for max cpu
+07-07 15:19:22.954  2438  2468 D         : HostConnection::get() New Host Connection established 0xe44a4500, pid 2438, tid 2468
+07-07 15:19:22.954  2438  2456 D 3c.control: max_cpu Read valid core: 0-3
+07-07 15:19:22.954  2438  2456 D 3c.control: max_cpu Read single core: 0 from 0
+07-07 15:19:22.954  2438  2456 D 3c.control: max_cpu Read single core: 3 from 3
+07-07 15:19:22.955  2438  2456 W 3c.app.tb: Removing shortcut Voltage: no VOLTAGE
+07-07 15:19:22.955   461  2469 D local_opengl: Sending id 27 to host
+07-07 15:19:22.956  2438  2468 D         : HostComposition ext ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_async_unmap_buffer ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_1 
+07-07 15:19:22.956  2438  2468 W         : Process pipe failed
+07-07 15:19:22.956  2438  2456 W 3c.app.tb: Removing shortcut Thermal: no THERMAL
+07-07 15:19:22.957  2438  2456 W 3c.app.tb: Removing shortcut MPDecision: no MP
+07-07 15:19:22.958  2438  2468 I ccc71.at.free:ui: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+07-07 15:19:22.958  2438  2468 I OpenGLRenderer: Initialized EGL, version 1.4
+07-07 15:19:22.958  2438  2468 D OpenGLRenderer: Swap behavior 1
+07-07 15:19:22.959  2438  2468 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-07 15:19:22.959  2438  2468 D OpenGLRenderer: Swap behavior 0
+07-07 15:19:22.960  2438  2468 D EGL_emulation: eglCreateContext: 0xe44855a0: maj 3 min 1 rcv 4
+07-07 15:19:22.960  2438  2456 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_r
+07-07 15:19:22.960  2438  2456 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_g
+07-07 15:19:22.960  2438  2456 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_b
+07-07 15:19:22.960  2438  2456 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_ctrl
+07-07 15:19:22.960  2438  2456 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal
+07-07 15:19:22.960  2438  2456 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal_ctrl
+07-07 15:19:22.960  2438  2456 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/refresh_screen
+07-07 15:19:22.960  2438  2456 D 3c.control: Checking availability: /sys/class/misc/colorcontrol/multiplier_disabled
+07-07 15:19:22.961  2438  2456 W 3c.app.tb: Removing shortcut Gamma: no GAMMA
+07-07 15:19:22.961  2438  2456 D 3c.control: Checking availability: /sys/kernel/sound_control/cam_mic_gain
+07-07 15:19:22.961  2438  2456 D 3c.control: Checking availability: /sys/kernel/sound_control/headphone_gain
+07-07 15:19:22.961  2438  2456 D 3c.control: Checking availability: /sys/kernel/sound_control/mic_gain
+07-07 15:19:22.961  2438  2456 D 3c.control: Checking availability: /sys/kernel/sound_control/speaker_gain
+07-07 15:19:22.961  2438  2456 D 3c.control: Checking availability: /sys/kernel/sound_control/gpl_sound_control_locked
+07-07 15:19:22.961  2438  2456 W 3c.app.tb: Removing shortcut Sound: no SOUND
+07-07 15:19:22.962  2438  2438 I 3c.ui.utils: Preparing conf with language: en - US = en_US
+07-07 15:19:22.963  2438  2438 I 3c.ui.utils: Creating conf with language: US / en
+07-07 15:19:22.965  2438  2438 D 3c.ui.utils: at_activity.initAll(ccc71.at.activities.easy_tabs.at_easy_tabs@633e82d, false);
+07-07 15:19:22.968  2438  2471 W 3c.ui.utils: Running init once...
+07-07 15:19:22.968  2438  2471 D 3c.ui   : Found version:2.7.5 previous:2.7.5
+07-07 15:19:22.968  2438  2471 D 3c.ui   : Same version, not showing update
+07-07 15:19:22.969  2438  2471 D 3c.notifications: Got notifications packages: 
+07-07 15:19:22.973  2438  2456 W 3c.ui.utils: Done initializing shortcuts
+07-07 15:19:22.977  2438  2456 D 3c.processes: Loaded known list: 1
+07-07 15:19:22.978  2438  2456 D 3c.processes: Got 1 excluded processes
+07-07 15:19:22.978  2438  2456 D 3c.processes: Loaded excluded list: 1
+07-07 15:19:22.978  2438  2456 W 3c.app.tb: Starting missing services after force-stop
+07-07 15:19:22.978  2438  2456 W 3c.ui   : Auto-kill screen-off :false root: true, SDK: 27
+07-07 15:19:22.980  2438  2471 D 3c.app.bm: Battery receiver needed: Notif shortcut: -1 - notif: false - overlay: false - screen on: true - recording: false - shorcut: false
+07-07 15:19:22.980  2438  2471 D 3c.notifications: Got notifications packages: 
+07-07 15:19:22.982  2438  2456 E 3c.settings: Prefs prefskey.watch.id default -1
+07-07 15:19:22.982  2438  2456 W 3c.lib  : Calling native ls(false, false, /data/user/0/ccc71.at.free/xposed
+07-07 15:19:22.984  2438  2456 E 3c.settings: Prefs prefskey.profile.id default -1
+07-07 15:19:22.984  2438  2456 W 3c.profiles: Current profile: -1
+07-07 15:19:22.985  2438  2456 D 3c.profiles: tweaks needed: profile: null
+07-07 15:19:22.985  2438  2471 D 3c.app.tb: Disabling backup accessibility service
+07-07 15:19:22.985  2438  2471 D 3c.lib  : Installing ZIP file widgets.zip
+07-07 15:19:22.985  2438  2471 D 3c.lib  : Installing ZIP file presets.zip
+07-07 15:19:22.986  2438  2471 D 3c.lib  : Installing ZIP file debloat.zip
+07-07 15:19:22.987  2438  2438 D 3c.ui   : addDrawer on ccc71.at.activities.easy_tabs.at_easy_tabs@633e82d / android.widget.LinearLayout{895a109 V.E...... ......I. 0,0-0,0 #7f0903e2 app:id/layoutMain}
+07-07 15:19:22.989  2438  2438 D 3c.ui   : in content frame = android.widget.FrameLayout{8457e1a V.E...... ......I. 0,0-0,0 #7f09020d app:id/content_frame}
+07-07 15:19:22.990  2438  2438 D 3c.ui   : new screenWidth = 1440
+07-07 15:19:22.990  2438  2438 D 3c.ui   : result new screenWidth = 1152
+07-07 15:19:22.991  2438  2472 W 3c.ui.utils: shortcut initialized  / 109 / Main screen
+07-07 15:19:22.996  2438  2471 W 3c.files: Is external SD secure:false
+07-07 15:19:22.997  2438  2471 W 3c.files: Is external SD secure:false
+07-07 15:19:22.998  2438  2471 D 3c.files: Transforming SD device from /dev/block/by-name/data into /dev/block/sdb3
+07-07 15:19:22.999  2438  2471 D 3c.control: Checking availability: /sys/devices/virtual/bdi/8:16/read_ahead_kb
+07-07 15:19:23.001  2438  2471 W 3c.files: Is external SD secure:false
+07-07 15:19:23.001  2438  2471 D 3c.control: Checking availability: /sys/block/sdb/queue/scheduler
+07-07 15:19:23.001  2438  2471 D 3c.control: Checking availability: /sys/module/sync/parameters/fsync_enabled
+07-07 15:19:23.001  2438  2471 D 3c.control: Checking availability: /sys/kernel/dyn_fsync/Dyn_fsync_active
+07-07 15:19:23.001  2438  2471 D 3c.control: Checking availability: /sys/devices/virtual/misc/fsynccontrol/fsync_enabled
+07-07 15:19:23.001  2438  2471 D 3c.control: Checking availability: /sys/class/misc/fsynccontrol/fsync_enabled
+07-07 15:19:23.001  2438  2471 D 3c.control: Checking availability: /sys/android_touch/sweep2wake
+07-07 15:19:23.001  2438  2471 D 3c.control: Checking availability: /sys/devices/virtual/misc/touchwake/enabled
+07-07 15:19:23.002  2438  2471 D 3c.control: Checking availability: /sys/android_key/sweep2wake
+07-07 15:19:23.002  2438  2471 D 3c.control: Checking availability: /sys/android_touch/sweep2sleep
+07-07 15:19:23.002  2438  2471 D 3c.control: Checking availability: /sys/android_key/sweep2sleep
+07-07 15:19:23.002  2438  2471 D 3c.control: Checking availability: /sys/android_touch/doubletap2wake
+07-07 15:19:23.002  2438  2471 D 3c.control: Checking availability: /sys/android_key/doubletap2wake
+07-07 15:19:23.002  2438  2471 D 3c.control: Checking availability: /sys/devices/platform/htc_battery/fast_charge
+07-07 15:19:23.002  2438  2471 D 3c.control: Checking availability: /sys/kernel/fast_charge/force_fast_charge
+07-07 15:19:23.003  2438  2471 I 3c.app.tb: Checking Xposed configuration
+07-07 15:19:23.003   529   780 I ActivityManager: Start proc 2474:ccc71.at.free/u0a68 for service ccc71.at.free/lib3c.indicators.lib3c_indicators_service
+07-07 15:19:23.003  2438  2456 D 3c.notifications: Got notifications packages: 
+07-07 15:19:23.005  2438  2438 W ActionBarDrawerToggle: DrawerToggle may not show up because NavigationIcon is not visible. You may need to call actionbar.setDisplayHomeAsUpEnabled(true);
+07-07 15:19:23.006  2438  2456 D 3c.notifications: Got notifications packages: 
+07-07 15:19:23.007  2438  2438 W 3c.ui   : resume - call_onshow set to fragment xk1{d2d61e6} (d8857344-6e77-4bf5-9911-b50dce9e93b6)
+07-07 15:19:23.007  2474  2474 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+07-07 15:19:23.009  2438  2456 E 3c.settings: Prefs prefskey.watch.id default -1
+07-07 15:19:23.009  2438  2480 W 3c.ui.utils: shortcut initialized  / 109 / Main screen
+07-07 15:19:23.010  2438  2456 E 3c.lib  : Received uncaught exception
+07-07 15:19:23.010  2438  2456 E 3c.lib  : java.lang.NoClassDefFoundError: Failed resolution of: Llib3c/service/boot/lib3c_boot_service;
+07-07 15:19:23.010  2438  2456 E 3c.lib  : 	at lib3c.service.tasker.lib3c_task_receiver.a(Unknown Source:156)
+07-07 15:19:23.010  2438  2456 E 3c.lib  : 	at ccc71.at.at_application.a(Unknown Source:260)
+07-07 15:19:23.010  2438  2456 E 3c.lib  : 	at lib3c.application.lib3c_application$a.runThread(Unknown Source:204)
+07-07 15:19:23.010  2438  2456 E 3c.lib  : 	at c.gh2.run(Unknown Source:2)
+07-07 15:19:23.010  2438  2456 E 3c.lib  : Caused by: java.lang.ClassNotFoundException: Didn't find class "lib3c.service.boot.lib3c_boot_service" on path: DexPathList[[zip file "/data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/base.apk"],nativeLibraryDirectories=[/data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86, /data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/base.apk!/lib/x86, /system/lib, /system/vendor/lib]]
+07-07 15:19:23.010  2438  2456 E 3c.lib  : 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:125)
+07-07 15:19:23.010  2438  2456 E 3c.lib  : 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+07-07 15:19:23.010  2438  2456 E 3c.lib  : 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+07-07 15:19:23.010  2438  2456 E 3c.lib  : 	... 4 more
+07-07 15:19:23.011  2438  2456 I 3c.lib  : Finished logging uncaught exception
+07-07 15:19:23.024  2438  2468 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008f38
+07-07 15:19:23.024  2438  2468 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008f38
+07-07 15:19:23.025  2438  2468 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ca
+07-07 15:19:23.025  2438  2468 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ca
+07-07 15:19:23.025  2438  2468 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ce
+07-07 15:19:23.025  2438  2468 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ce
+07-07 15:19:23.026  2438  2468 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090cf
+07-07 15:19:23.026  2438  2468 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090cf
+07-07 15:19:23.028  2438  2468 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+07-07 15:19:23.029  2438  2468 D vndksupport: Loading /vendor/lib/hw/gralloc.vbox86.so from current namespace instead of sphal namespace.
+07-07 15:19:23.029  2438  2468 D         : createUnique: call
+07-07 15:19:23.029  2438  2468 D         : HostConnection::get() New Host Connection established 0xe44a4410, pid 2438, tid 2468
+07-07 15:19:23.030   461  2494 D local_opengl: Sending id 28 to host
+07-07 15:19:23.031  2438  2468 D         : HostComposition ext ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_async_unmap_buffer ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_1 
+07-07 15:19:23.031  2438  2468 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:19:23.035  2474  2474 I MultiDex: VM with version 2.1.0 has multidex support
+07-07 15:19:23.035  2474  2474 I MultiDex: Installing application
+07-07 15:19:23.035  2474  2474 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+07-07 15:19:23.045  2474  2474 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+07-07 15:19:23.059  2474  2474 D 3c.explorer: provider.onCreate
+07-07 15:19:23.076  2474  2499 W 3c.settings: Loaded 10 shared preference settings
+07-07 15:19:23.076  2474  2474 W 3c.settings: Loaded 10 shared preference settings
+07-07 15:19:23.076  2474  2474 W 3c.settings: Reloading shared preferences
+07-07 15:19:23.076  2474  2474 W 3c.settings: Loaded 10 shared preference settings
+07-07 15:19:23.076  2474  2499 W 3c.lib  : Loading exception handler onto file /storage/emulated/0/Android/data/ccc71.at.free/support/crash_reports.txt
+07-07 15:19:23.077  2474  2499 E 3c.lib  : Checking isUI thread
+07-07 15:19:23.077  2474  2499 I 3c.lib  : Checking isUI (from AM):false - ccc71.at.free
+07-07 15:19:23.077  2474  2499 W 3c.ui.utils: shortcut initialized  / 0 / empty
+07-07 15:19:23.077  2474  2499 W 3c.ui.utils: Loading language into shortcuts initializer
+07-07 15:19:23.077  2474  2499 W 3c.ui.utils: Loaded language into shortcuts initializer: en_US
+07-07 15:19:23.087  2464  2464 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:19:23.090  2464  2464 W /system/bin/app_process: Could not reserve sentinel fault page
+07-07 15:19:23.093  2474  2474 W 3c.settings: Reloading shared preferences
+07-07 15:19:23.093  2474  2474 W 3c.settings: Loaded 10 shared preference settings
+07-07 15:19:23.093  2474  2474 W 3c.notifications: Registering lib3c_notification_timer
+07-07 15:19:23.095  2474  2499 W 3c.lib  : Trying to gain root access, remaining attempts: 1
+07-07 15:19:23.095  2474  2499 W 3c.lib  : Running lib as root: /data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86/liblib3c.so
+07-07 15:19:23.099  2474  2474 W 3c.screen: Registered lib3c_screen_receiver (screen true)
+07-07 15:19:23.099  2474  2474 D 3c.notifications: Got notifications packages: 
+07-07 15:19:23.100  2474  2474 W 3c.screen: UNregistered lib3c_screen_receiver
+07-07 15:19:23.100  2474  2474 W 3c.notifications: Unregistering lib3c_notification_timer - not needed
+07-07 15:19:23.100  2474  2474 D 3c.notifications: Got notifications packages: 
+07-07 15:19:23.103  2474  2474 D 3c.notifications: Got notifications packages: 
+07-07 15:19:23.140  2438  2443 I zygote  : Do partial code cache collection, code=14KB, data=26KB
+07-07 15:19:23.140  2438  2443 I zygote  : After code cache collection, code=14KB, data=26KB
+07-07 15:19:23.140  2438  2443 I zygote  : Increasing code cache capacity to 128KB
+07-07 15:19:23.156  2464  2464 W /system/bin/app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:19:23.160  2474  2499 W 3c.lib  : Got root access, resetting attempts
+07-07 15:19:23.160  2464  2464 I /system/bin/app_process: The ClassLoaderContext is a special shared library.
+07-07 15:19:23.167  2474  2499 W 3c.app.tb: Removing shortcut Usage: API != 22
+07-07 15:19:23.167  2474  2499 W 3c.app.tb: Removing shortcut Optimization: API != 23
+07-07 15:19:23.176  2474  2499 W 3c.app.tb: Removing shortcut Graphics: API != 23
+07-07 15:19:23.176  2474  2499 W 3c.app.tb: Removing shortcut Wi-Fi AP: API < 23
+07-07 15:19:23.185  2474  2485 W 3c.db   : c.of2.close() was never called to clean-up resources
+07-07 15:19:23.185  2474  2485 W 3c.db   : java.lang.Exception: Process has leaked c.of2
+07-07 15:19:23.185  2474  2485 W 3c.db   : 	at c.e82.<init>(Unknown Source:32)
+07-07 15:19:23.185  2474  2485 W 3c.db   : 	at c.of2.<init>(Unknown Source:7)
+07-07 15:19:23.185  2474  2485 W 3c.db   : 	at c.nf2.u(Unknown Source:17)
+07-07 15:19:23.185  2474  2485 W 3c.db   : 	at c.nf2.H(Unknown Source:0)
+07-07 15:19:23.185  2474  2485 W 3c.db   : 	at lib3c.application.lib3c_application$a.runThread(Unknown Source:17)
+07-07 15:19:23.185  2474  2485 W 3c.db   : 	at c.gh2.run(Unknown Source:2)
+07-07 15:19:23.186  2464  2464 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+07-07 15:19:23.200  2474  2499 W 3c.app.tb: Removing shortcut GPU: no GPU
+07-07 15:19:23.201  2474  2499 W 3c.app.tb: Removing shortcut Times: no TIMES
+07-07 15:19:23.202  2474  2499 D 3c.control: max_cpu Read valid core for max cpu
+07-07 15:19:23.202  2474  2499 D 3c.control: max_cpu Read valid core: 0-3
+07-07 15:19:23.202  2474  2499 D 3c.control: max_cpu Read single core: 0 from 0
+07-07 15:19:23.202  2474  2499 D 3c.control: max_cpu Read single core: 3 from 3
+07-07 15:19:23.202  2474  2499 W 3c.app.tb: Removing shortcut Voltage: no VOLTAGE
+07-07 15:19:23.204  2474  2499 W 3c.app.tb: Removing shortcut Thermal: no THERMAL
+07-07 15:19:23.205  2474  2499 W 3c.app.tb: Removing shortcut MPDecision: no MP
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_r
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_g
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_b
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_ctrl
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal_ctrl
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/refresh_screen
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/class/misc/colorcontrol/multiplier_disabled
+07-07 15:19:23.207  2474  2499 W 3c.app.tb: Removing shortcut Gamma: no GAMMA
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/kernel/sound_control/cam_mic_gain
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/kernel/sound_control/headphone_gain
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/kernel/sound_control/mic_gain
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/kernel/sound_control/speaker_gain
+07-07 15:19:23.207  2474  2499 D 3c.control: Checking availability: /sys/kernel/sound_control/gpl_sound_control_locked
+07-07 15:19:23.207  2474  2499 W 3c.app.tb: Removing shortcut Sound: no SOUND
+07-07 15:19:23.213  2474  2499 W 3c.ui.utils: Done initializing shortcuts
+07-07 15:19:23.215  2474  2499 D 3c.processes: Loaded known list: 1
+07-07 15:19:23.216  2474  2499 D 3c.processes: Got 1 excluded processes
+07-07 15:19:23.216  2474  2499 D 3c.processes: Loaded excluded list: 1
+07-07 15:19:23.216  2474  2499 D 3c.widgets: Enumerating existing widgets...
+07-07 15:19:23.219  2474  2499 D 3c.widgets: Recovered 0 widget(s)
+07-07 15:19:23.219  2474  2499 W 3c.widgets: has refreshable widgets: false
+07-07 15:19:23.221  2474  2474 W 3c.widgets: has refreshable widgets: false
+07-07 15:19:23.221  2474  2474 I 3c.widgets: Widgets service started but not needed!
+07-07 15:19:23.221  2474  2474 W 3c.widgets: has refreshable widgets: false
+07-07 15:19:23.222  2464  2464 D AndroidRuntime: Shutting down VM
+07-07 15:19:23.235  2438  2438 W 3c.ui.utils: Finishing init...
+07-07 15:19:23.235  2438  2438 D 3c.ui.utils: lib3c_ui_utils.initInApps
+07-07 15:19:23.237  2438  2438 D 3c.ui.utils: at_activity.initInAppPurchase(false);
+07-07 15:19:23.239  2438  2438 I zygote  : Deoptimizing boolean androidx.appcompat.widget.TintContextWrapper.shouldWrap(android.content.Context) due to JIT inline cache
+07-07 15:19:23.240  2438  2438 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:23.242  2438  2438 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:23.251  2438  2443 I zygote  : Do partial code cache collection, code=59KB, data=54KB
+07-07 15:19:23.252  2438  2443 I zygote  : After code cache collection, code=58KB, data=54KB
+07-07 15:19:23.252  2438  2443 I zygote  : Increasing code cache capacity to 256KB
+07-07 15:19:23.254  2508  2508 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:19:23.306  2508  2508 W /system/bin/app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:19:23.307  2508  2508 I /system/bin/app_process: The ClassLoaderContext is a special shared library.
+07-07 15:19:23.324   529   553 I ActivityManager: Displayed ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs: +368ms (total +479ms)
+07-07 15:19:23.331  2508  2508 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+07-07 15:19:23.337  1206  1295 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:19:23.356  2508  2508 D AndroidRuntime: Shutting down VM
+07-07 15:19:23.359   529   537 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:19:23.511  2438  2438 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:24.344   476   476 I batteryd: type=1400 audit(0.0:1445): avc: denied { read } for name="capacity" dev="sysfs" ino=3641 scontext=u:r:batteryd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+07-07 15:19:24.344   476   476 I batteryd: type=1400 audit(0.0:1446): avc: denied { open } for path="/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/PNP0C0A:00/power_supply/BAT0/capacity" dev="sysfs" ino=3641 scontext=u:r:batteryd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+07-07 15:19:24.344   510   510 I healthd : type=1400 audit(0.0:1447): avc: denied { read } for name="capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:19:24.344   510   510 I healthd : type=1400 audit(0.0:1448): avc: denied { open } for path="/dev/pipe/battery/BAT0/capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:19:24.344   510   510 I healthd : type=1400 audit(0.0:1449): avc: denied { getattr } for path="/dev/pipe/battery/BAT0/capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:19:25.712   475   475 I android.hardwar: type=1400 audit(0.0:1450): avc: denied { write } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+07-07 15:19:25.712   475   475 I android.hardwar: type=1400 audit(0.0:1451): avc: denied { nlmsg_read } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+07-07 15:19:25.712   475   475 I android.hardwar: type=1400 audit(0.0:1452): avc: denied { read } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+07-07 15:19:26.407   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@f882550
+07-07 15:19:26.418   482   482 D SurfaceFlinger: duplicate layer name: changing Toast to Toast#1
+07-07 15:19:26.468   529   650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-07 15:19:26.920   378   378 I hostapd : type=1400 audit(0.0:1453): avc: denied { read } for scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=netlink_generic_socket permissive=1
+07-07 15:19:26.920   378   378 I hostapd : type=1400 audit(0.0:1454): avc: denied { write } for scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=netlink_generic_socket permissive=1
+07-07 15:19:26.920   378   378 I hostapd : type=1400 audit(0.0:1455): avc: denied { net_admin } for capability=12 scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=capability permissive=1
+07-07 15:19:28.412   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@8f1cdf1
+07-07 15:19:28.415  1656  2210 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:19:28.708  1417  1876 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+07-07 15:19:28.708  1417  1417 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+07-07 15:19:28.709  1417  1417 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+07-07 15:19:28.709  1417  1417 I Dialer  : VvmTaskReceiver - task received
+07-07 15:19:28.709  1417  1417 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+07-07 15:19:28.709  1417  1417 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+07-07 15:19:28.710  1417  1417 I Dialer  : RetryPolicy - retry #3 for com.android.voicemail.impl.ActivationTask@71a9854 queued, executing in 5000
+07-07 15:19:28.710  1417  1417 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@71a9854 added
+07-07 15:19:28.710  1417  1417 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+07-07 15:19:28.710  1417  1417 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+07-07 15:19:29.009  2474  2530 D ProfileInstaller: Skipping profile installation for ccc71.at.free
+07-07 15:19:30.418  1656  2210 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:19:30.420   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@5955fe5
+07-07 15:19:33.729  1417  1876 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@71a9854
+07-07 15:19:33.729  1417  1876 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5fef04621e9a9b41849c3df35e75799299008300], UserHandle{0} already migrated
+07-07 15:19:33.741   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:19:33.741   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:19:33.752  1417  1876 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+07-07 15:19:33.752  1417  1876 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+07-07 15:19:33.756  1417  1876 I Dialer  : TelephonyMangerCompat.setVisualVoicemailSmsFilterSettings - using TelephonyManager
+07-07 15:19:33.758  1417  1876 I Dialer  : TelephonyMangerCompat.sendVisualVoicemailSms - using TelephonyManager
+07-07 15:19:33.762   499  1710 D baseband-sms: newsms
+07-07 15:19:33.762   499  1710 D baseband-sms: sender:(N/A)
+07-07 15:19:33.762   499  1710 D baseband-sms: receiver:122
+07-07 15:19:33.762   499  1710 D baseband-sms: index:1/1
+07-07 15:19:33.762   499  1710 D baseband-sms: txt:'FQKf.Î£:etÎ”#W'
+07-07 15:19:33.756   499   499 I genybaseband: type=1400 audit(0.0:1456): avc: denied { write } for path="socket:[15520]" dev="sockfs" ino=15520 scontext=u:r:genybaseband:s0 tcontext=u:r:genybaseband:s0 tclass=tcp_socket permissive=1
+07-07 15:19:33.756   499   499 I genybaseband: type=1400 audit(0.0:1457): avc: denied { read } for path="socket:[15520]" dev="sockfs" ino=15520 scontext=u:r:genybaseband:s0 tcontext=u:r:genybaseband:s0 tclass=tcp_socket permissive=1
+07-07 15:19:33.756   217   217 I redis   : type=1400 audit(0.0:1458): avc: denied { read } for path="socket:[15523]" dev="sockfs" ino=15523 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:19:33.756   217   217 I redis   : type=1400 audit(0.0:1459): avc: denied { write } for path="socket:[15523]" dev="sockfs" ino=15523 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:19:48.134   529  2423 I ActivityManager: Force stopping ccc71.at.free appid=10068 user=0: from pid 2536
+07-07 15:19:48.134   529  2423 I ActivityManager: Killing 2438:ccc71.at.free:ui/u0a68 (adj 0): stop ccc71.at.free
+07-07 15:19:48.134   529   548 W system_server: kill(-2438, 9) failed: No such process
+07-07 15:19:48.136   529  2423 W ActivityManager: Force removing ActivityRecord{4367349 u0 ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs t10}: app died, no saved state
+07-07 15:19:48.136   529  2423 I WindowManager: Failed to capture screenshot of Token{5c5844e ActivityRecord{4367349 u0 ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs t10 f}} appWin=Window{d4185bd u0 ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs} drawState=4
+07-07 15:19:48.139   529  2423 I ActivityManager: Killing 2474:ccc71.at.free/u0a68 (adj 900): stop ccc71.at.free
+07-07 15:19:48.141   868   868 D CarrierSvcBindHelper: No carrier app for: 0
+07-07 15:19:48.144   461   461 I local_opengl: type=1400 audit(0.0:1460): avc: denied { write } for laddr=192.168.56.102 lport=22468 faddr=192.168.56.1 fport=45408 scontext=u:r:local_opengl:s0 tcontext=u:r:local_opengl:s0 tclass=tcp_socket permissive=1
+07-07 15:19:48.144   461   461 I local_opengl: type=1400 audit(0.0:1461): avc: denied { read } for laddr=192.168.56.102 lport=22468 faddr=192.168.56.1 fport=45402 scontext=u:r:local_opengl:s0 tcontext=u:r:local_opengl:s0 tclass=tcp_socket permissive=1
+07-07 15:19:48.163   529   553 W ActivityManager: setHasOverlayUi called on unknown pid: 2438
+07-07 15:19:48.179   529   548 W system_server: kill(-2438, 9) failed: No such process
+07-07 15:19:48.180   529   548 I system_server: Successfully killed process cgroup uid 10068 pid 2438 in 45ms
+07-07 15:19:48.180   529   548 W system_server: kill(-2474, 9) failed: No such process
+07-07 15:19:48.180   529   548 I system_server: Successfully killed process cgroup uid 10068 pid 2474 in 0ms
+07-07 15:19:48.325  2542  2542 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:19:48.382  2542  2542 W app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:19:48.384  2542  2542 I app_process: The ClassLoaderContext is a special shared library.
+07-07 15:19:48.397  2542  2542 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+07-07 15:19:48.402  2542  2542 W Monkey  : args: [-p, ccc71.at.free, -c, android.intent.category.LAUNCHER, 1]
+07-07 15:19:48.402  2542  2542 W Monkey  :  arg: "-p"
+07-07 15:19:48.402  2542  2542 W Monkey  :  arg: "ccc71.at.free"
+07-07 15:19:48.402  2542  2542 W Monkey  :  arg: "-c"
+07-07 15:19:48.402  2542  2542 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+07-07 15:19:48.402  2542  2542 W Monkey  :  arg: "1"
+07-07 15:19:48.402  2542  2542 W Monkey  : data="ccc71.at.free"
+07-07 15:19:48.402  2542  2542 W Monkey  : data="android.intent.category.LAUNCHER"
+07-07 15:19:48.413   529   546 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{995710d u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{a2148c2 2542 (unknown name)/0/u-1 remote:426fe37}: process gone or crashing
+07-07 15:19:48.417   529  2539 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ccc71.at.free/ccc71.at.at_main_popup} from uid 0
+07-07 15:19:48.417   529  2539 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+07-07 15:19:48.417   529  2539 W Binder  : java.lang.Throwable
+07-07 15:19:48.417   529  2539 W Binder  : 	at android.os.BinderProxy.transact(Binder.java:752)
+07-07 15:19:48.417   529  2539 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:172)
+07-07 15:19:48.417   529  2539 W Binder  : 	at com.android.server.am.ActivityStarter.startActivity(ActivityStarter.java:449)
+07-07 15:19:48.417   529  2539 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityLocked(ActivityStarter.java:278)
+07-07 15:19:48.417   529  2539 W Binder  : 	at com.android.server.am.ActivityStarter.startActivityMayWait(ActivityStarter.java:817)
+07-07 15:19:48.417   529  2539 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:4590)
+07-07 15:19:48.417   529  2539 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivity(ActivityManagerService.java:4577)
+07-07 15:19:48.417   529  2539 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:121)
+07-07 15:19:48.417   529  2539 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2977)
+07-07 15:19:48.417   529  2539 W Binder  : 	at android.os.Binder.execTransact(Binder.java:697)
+07-07 15:19:48.421  2542  2542 I Monkey  : Events injected: 1
+07-07 15:19:48.428  2552  2552 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+07-07 15:19:48.432   529   541 I ActivityManager: Start proc 2552:ccc71.at.free:ui/u0a68 for activity ccc71.at.free/ccc71.at.at_main_popup
+07-07 15:19:48.435  2542  2542 I Monkey  : ## Network stats: elapsed time=7ms (0ms mobile, 0ms wifi, 7ms not connected)
+07-07 15:19:48.436   529   529 I Binder:529_10: type=1400 audit(0.0:1462): avc: denied { write } for name="timerslack_ns" dev="proc" ino=19496 scontext=u:r:system_server:s0 tcontext=u:r:priv_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:19:48.443  2542  2542 I com.android.commands.monkey: System.exit called, status: 0
+07-07 15:19:48.443  2542  2542 I AndroidRuntime: VM exiting with result code 0.
+07-07 15:19:48.461  2552  2552 I MultiDex: VM with version 2.1.0 has multidex support
+07-07 15:19:48.461  2552  2552 I MultiDex: Installing application
+07-07 15:19:48.461  2552  2552 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+07-07 15:19:48.480  2552  2570 W 3c.settings: Loaded 10 shared preference settings
+07-07 15:19:48.480  2552  2571 D libEGL  : Emulator has host GPU support, qemu.gles is set to 1.
+07-07 15:19:48.476  2552  2552 I ccc71.at.free:ui: type=1400 audit(0.0:1463): avc: denied { connectto } for comm=45474C20496E6974 path="/dev/socket/property_service" scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1
+07-07 15:19:48.481  2552  2570 W 3c.lib  : Loading exception handler onto file /storage/emulated/0/Android/data/ccc71.at.free/support/crash_reports.txt
+07-07 15:19:48.481  2552  2571 D vndksupport: Loading /vendor/lib/egl/libGLES_emulation.so from current namespace instead of sphal namespace.
+07-07 15:19:48.481  2552  2570 E 3c.lib  : Checking isUI thread
+07-07 15:19:48.482  2552  2570 I 3c.lib  : Checking isUI (from AM):true - ccc71.at.free:ui
+07-07 15:19:48.482  2552  2570 W 3c.ui.utils: shortcut initialized  / 0 / empty
+07-07 15:19:48.482  2552  2570 W 3c.ui.utils: Loading language into shortcuts initializer
+07-07 15:19:48.482  2552  2570 W 3c.ui.utils: Loaded language into shortcuts initializer: en_US
+07-07 15:19:48.485  2552  2571 E libEGL  : load_driver(/vendor/lib/egl/libGLES_emulation.so): dlopen failed: library "/vendor/lib/egl/libGLES_emulation.so" not found
+07-07 15:19:48.485  2552  2571 D vndksupport: Loading /vendor/lib/egl/libEGL_emulation.so from current namespace instead of sphal namespace.
+07-07 15:19:48.489  2552  2552 I 3c.ui.utils: Preparing conf with language: en - US = en_US
+07-07 15:19:48.490  2552  2552 I 3c.ui.utils: Creating conf with language: US / en
+07-07 15:19:48.491  2552  2571 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+07-07 15:19:48.491  2552  2552 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+07-07 15:19:48.491  2552  2571 D vndksupport: Loading /vendor/lib/egl/libGLESv1_CM_emulation.so from current namespace instead of sphal namespace.
+07-07 15:19:48.496  2552  2571 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+07-07 15:19:48.500  2552  2552 D 3c.lib  : No extras in intent Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ccc71.at.free/ccc71.at.at_main_popup }
+07-07 15:19:48.502   529   541 I ActivityManager: START u0 {flg=0x34000000 cmp=ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs (has extras)} from uid 10068
+07-07 15:19:48.503  2552  2570 W 3c.lib  : Trying to gain root access, remaining attempts: 1
+07-07 15:19:48.503  2552  2570 W 3c.lib  : Running lib as root: /data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86/liblib3c.so
+07-07 15:19:48.510  2552  2571 D vndksupport: Loading /vendor/lib/egl/libGLESv2_emulation.so from current namespace instead of sphal namespace.
+07-07 15:19:48.504  2573  2573 I su      : type=1400 audit(0.0:1464): avc: denied { connectto } for path="/dev/com.genymotion.superuser.daemon/server" scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:r:su_daemon:s0 tclass=unix_stream_socket permissive=1
+07-07 15:19:48.508  2575  2575 I su      : type=1400 audit(0.0:1465): avc: denied { read } for scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:19:48.508  2575  2575 I su      : type=1400 audit(0.0:1466): avc: denied { search } for name="2573" dev="proc" ino=36013 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=dir permissive=1
+07-07 15:19:48.508  2575  2575 I su      : type=1400 audit(0.0:1467): avc: denied { read } for name="exe" dev="proc" ino=35516 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=lnk_file permissive=1
+07-07 15:19:48.508  2575  2575 I su      : type=1400 audit(0.0:1468): avc: denied { read } for path="pipe:[34528]" dev="pipefs" ino=34528 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=fifo_file permissive=1
+07-07 15:19:48.508  2575  2575 I su      : type=1400 audit(0.0:1469): avc: denied { write } for path="pipe:[34529]" dev="pipefs" ino=34529 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=fifo_file permissive=1
+07-07 15:19:48.508  2577  2577 I su      : type=1400 audit(0.0:1470): avc: denied { open } for path="/proc/2552/cmdline" dev="proc" ino=35500 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=file permissive=1
+07-07 15:19:48.508  2577  2577 I su      : type=1400 audit(0.0:1471): avc: denied { search } for name="com.genymotion.superuser" dev="sdb3" ino=81703 scontext=u:r:su_daemon:s0 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=1
+07-07 15:19:48.508  2577  2577 I su      : type=1400 audit(0.0:1472): avc: denied { getattr } for path="/data/data/com.genymotion.superuser" dev="sdb3" ino=81703 scontext=u:r:su_daemon:s0 tcontext=u:object_r:system_app_data_file:s0 tclass=dir permissive=1
+07-07 15:19:48.508  2577  2577 I su      : type=1400 audit(0.0:1473): avc: denied { getattr } for path="/data/data/com.genymotion.superuser/databases/su.sqlite" dev="sdb3" ino=81818 scontext=u:r:su_daemon:s0 tcontext=u:object_r:system_app_data_file:s0 tclass=file permissive=1
+07-07 15:19:48.508  2577  2577 I su      : type=1400 audit(0.0:1474): avc: denied { read } for name="su.sqlite" dev="sdb3" ino=81818 scontext=u:r:su_daemon:s0 tcontext=u:object_r:system_app_data_file:s0 tclass=file permissive=1
+07-07 15:19:48.508  2577  2577 I su      : type=1400 audit(0.0:1475): avc: denied { open } for path="/data/data/com.genymotion.superuser/databases/su.sqlite" dev="sdb3" ino=81818 scontext=u:r:su_daemon:s0 tcontext=u:object_r:system_app_data_file:s0 tclass=file permissive=1
+07-07 15:19:48.508  2577  2577 I su      : type=1400 audit(0.0:1476): avc: denied { lock } for path="/data/data/com.genymotion.superuser/databases/su.sqlite" dev="sdb3" ino=81818 scontext=u:r:su_daemon:s0 tcontext=u:object_r:system_app_data_file:s0 tclass=file permissive=1
+07-07 15:19:48.514  2552  2571 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+07-07 15:19:48.508  2577  2577 I su      : type=1400 audit(0.0:1477): avc: denied { execute } for name="sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:19:48.508  2577  2577 I su      : type=1400 audit(0.0:1478): avc: denied { read open } for path="/system/bin/sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:19:48.508  2577  2577 I su      : type=1400 audit(0.0:1479): avc: denied { execute_no_trans } for path="/system/bin/sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:19:48.508  2577  2577 I sh      : type=1400 audit(0.0:1480): avc: denied { getattr } for path="/system/bin/sh" dev="sda6" ino=579 scontext=u:r:su_daemon:s0 tcontext=u:object_r:shell_exec:s0 tclass=file permissive=1
+07-07 15:19:48.512  2577  2577 I sh      : type=1400 audit(0.0:1481): avc: denied { ioctl } for path="pipe:[34528]" dev="pipefs" ino=34528 ioctlcmd=5401 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=fifo_file permissive=1
+07-07 15:19:48.512  2577  2577 I sh      : type=1400 audit(0.0:1482): avc: denied { getattr } for path="pipe:[34528]" dev="pipefs" ino=34528 scontext=u:r:su_daemon:s0 tcontext=u:r:untrusted_app:s0:c512,c768 tclass=fifo_file permissive=1
+07-07 15:19:48.512  2577  2577 I sh      : type=1400 audit(0.0:1483): avc: denied { getattr } for path="/data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86/liblib3c.so" dev="sdb3" ino=39 scontext=u:r:su_daemon:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=1
+07-07 15:19:48.512  2577  2577 I sh      : type=1400 audit(0.0:1484): avc: denied { execute } for name="liblib3c.so" dev="sdb3" ino=39 scontext=u:r:su_daemon:s0 tcontext=u:object_r:apk_data_file:s0 tclass=file permissive=1
+07-07 15:19:48.521  2552  2552 D 3c.ui.utils: at_activity.initAll(ccc71.at.at_main_popup@be55b42, true);
+07-07 15:19:48.529  2552  2570 W 3c.lib  : Got root access, resetting attempts
+07-07 15:19:48.537  2552  2570 W 3c.app.tb: Removing shortcut Usage: API != 22
+07-07 15:19:48.537  2552  2570 W 3c.app.tb: Removing shortcut Optimization: API != 23
+07-07 15:19:48.541  2552  2582 D OpenGLRenderer: Skia GL Pipeline
+07-07 15:19:48.551  2552  2570 W 3c.app.tb: Removing shortcut Graphics: API != 23
+07-07 15:19:48.552  2552  2570 W 3c.app.tb: Removing shortcut Wi-Fi AP: API < 23
+07-07 15:19:48.557  2552  2582 D         : HostConnection::get() New Host Connection established 0xe44a4500, pid 2552, tid 2582
+07-07 15:19:48.558   461  2583 D local_opengl: Sending id 29 to host
+07-07 15:19:48.558  2552  2582 D         : HostComposition ext ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_async_unmap_buffer ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_1 
+07-07 15:19:48.558  2552  2582 W         : Process pipe failed
+07-07 15:19:48.560  2552  2552 I 3c.ui.utils: Preparing conf with language: en - US = en_US
+07-07 15:19:48.560  2552  2570 W 3c.app.tb: Removing shortcut GPU: no GPU
+07-07 15:19:48.560  2552  2552 I 3c.ui.utils: Creating conf with language: US / en
+07-07 15:19:48.560  2552  2570 W 3c.app.tb: Removing shortcut Times: no TIMES
+07-07 15:19:48.561  2552  2570 D 3c.control: max_cpu Read valid core for max cpu
+07-07 15:19:48.561  2552  2570 D 3c.control: max_cpu Read valid core: 0-3
+07-07 15:19:48.561  2552  2570 D 3c.control: max_cpu Read single core: 0 from 0
+07-07 15:19:48.561  2552  2570 D 3c.control: max_cpu Read single core: 3 from 3
+07-07 15:19:48.561  2552  2570 W 3c.app.tb: Removing shortcut Voltage: no VOLTAGE
+07-07 15:19:48.562  2552  2570 W 3c.app.tb: Removing shortcut Thermal: no THERMAL
+07-07 15:19:48.562  2552  2570 W 3c.app.tb: Removing shortcut MPDecision: no MP
+07-07 15:19:48.563  2552  2582 I ccc71.at.free:ui: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+07-07 15:19:48.563  2552  2582 I OpenGLRenderer: Initialized EGL, version 1.4
+07-07 15:19:48.563  2552  2582 D OpenGLRenderer: Swap behavior 1
+07-07 15:19:48.563  2552  2582 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+07-07 15:19:48.563  2552  2582 D OpenGLRenderer: Swap behavior 0
+07-07 15:19:48.564  2552  2552 D 3c.ui.utils: at_activity.initAll(ccc71.at.activities.easy_tabs.at_easy_tabs@34f9857, false);
+07-07 15:19:48.565  2552  2582 D EGL_emulation: eglCreateContext: 0xe4485420: maj 3 min 1 rcv 4
+07-07 15:19:48.566  2552  2585 W 3c.ui.utils: Running init once...
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_r
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_g
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_b
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_ctrl
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal_ctrl
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/refresh_screen
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/class/misc/colorcontrol/multiplier_disabled
+07-07 15:19:48.566  2552  2570 W 3c.app.tb: Removing shortcut Gamma: no GAMMA
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/kernel/sound_control/cam_mic_gain
+07-07 15:19:48.566  2552  2585 D 3c.ui   : Found version:2.7.5 previous:2.7.5
+07-07 15:19:48.566  2552  2585 D 3c.ui   : Same version, not showing update
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/kernel/sound_control/headphone_gain
+07-07 15:19:48.566  2552  2570 D 3c.control: Checking availability: /sys/kernel/sound_control/mic_gain
+07-07 15:19:48.567  2552  2570 D 3c.control: Checking availability: /sys/kernel/sound_control/speaker_gain
+07-07 15:19:48.567  2552  2570 D 3c.control: Checking availability: /sys/kernel/sound_control/gpl_sound_control_locked
+07-07 15:19:48.567  2552  2570 W 3c.app.tb: Removing shortcut Sound: no SOUND
+07-07 15:19:48.567  2552  2585 D 3c.notifications: Got notifications packages: 
+07-07 15:19:48.568  1206  1295 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:19:48.581  2552  2585 D 3c.app.bm: Battery receiver needed: Notif shortcut: -1 - notif: false - overlay: false - screen on: true - recording: false - shorcut: false
+07-07 15:19:48.581  2552  2585 D 3c.notifications: Got notifications packages: 
+07-07 15:19:48.583  2552  2570 W 3c.ui.utils: Done initializing shortcuts
+07-07 15:19:48.584  2552  2552 D 3c.ui   : addDrawer on ccc71.at.activities.easy_tabs.at_easy_tabs@34f9857 / android.widget.LinearLayout{64c9c55 V.E...... ......I. 0,0-0,0 #7f0903e2 app:id/layoutMain}
+07-07 15:19:48.585  2552  2570 D 3c.processes: Loaded known list: 1
+07-07 15:19:48.586  2552  2570 D 3c.processes: Got 1 excluded processes
+07-07 15:19:48.586  2552  2570 D 3c.processes: Loaded excluded list: 1
+07-07 15:19:48.586  2552  2570 W 3c.app.tb: Starting missing services after force-stop
+07-07 15:19:48.587  2552  2570 W 3c.ui   : Auto-kill screen-off :false root: true, SDK: 27
+07-07 15:19:48.587  2552  2552 D 3c.ui   : in content frame = android.widget.FrameLayout{98d010d V.E...... ......I. 0,0-0,0 #7f09020d app:id/content_frame}
+07-07 15:19:48.588  2552  2552 D 3c.ui   : new screenWidth = 1440
+07-07 15:19:48.588  2552  2552 D 3c.ui   : result new screenWidth = 1152
+07-07 15:19:48.588  2552  2570 E 3c.settings: Prefs prefskey.watch.id default -1
+07-07 15:19:48.588  2552  2570 W 3c.lib  : Calling native ls(false, false, /data/user/0/ccc71.at.free/xposed
+07-07 15:19:48.589  2552  2586 W 3c.ui.utils: shortcut initialized  / 109 / Main screen
+07-07 15:19:48.589  2552  2585 D 3c.app.tb: Disabling backup accessibility service
+07-07 15:19:48.590  2552  2570 E 3c.settings: Prefs prefskey.profile.id default -1
+07-07 15:19:48.590  2552  2570 W 3c.profiles: Current profile: -1
+07-07 15:19:48.590  2552  2570 D 3c.profiles: tweaks needed: profile: null
+07-07 15:19:48.593  2552  2582 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008f38
+07-07 15:19:48.593  2552  2582 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008f38
+07-07 15:19:48.594  2552  2582 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ca
+07-07 15:19:48.594  2552  2582 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ca
+07-07 15:19:48.595  2552  2582 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ce
+07-07 15:19:48.595  2552  2582 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090ce
+07-07 15:19:48.595  2552  2582 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090cf
+07-07 15:19:48.596  2552  2585 D 3c.lib  : Installing ZIP file widgets.zip
+07-07 15:19:48.596  2552  2582 E eglCodecCommon: glUtilsParamSize: unknow param 0x000090cf
+07-07 15:19:48.596  2552  2585 D 3c.lib  : Installing ZIP file presets.zip
+07-07 15:19:48.596  2552  2585 D 3c.lib  : Installing ZIP file debloat.zip
+07-07 15:19:48.602  2552  2582 D vndksupport: Loading /vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+07-07 15:19:48.603  2552  2582 D vndksupport: Loading /vendor/lib/hw/gralloc.vbox86.so from current namespace instead of sphal namespace.
+07-07 15:19:48.603  2552  2582 D         : createUnique: call
+07-07 15:19:48.603  2552  2582 D         : HostConnection::get() New Host Connection established 0xe44a4410, pid 2552, tid 2582
+07-07 15:19:48.605   461  2592 D local_opengl: Sending id 30 to host
+07-07 15:19:48.605  2552  2585 W 3c.files: Is external SD secure:false
+07-07 15:19:48.607  2552  2582 D         : HostComposition ext ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_async_unmap_buffer ANDROID_EMU_sync_buffer_data GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_1 
+07-07 15:19:48.607  2552  2585 W 3c.files: Is external SD secure:false
+07-07 15:19:48.608   529  1162 I ActivityManager: Start proc 2589:ccc71.at.free/u0a68 for service ccc71.at.free/lib3c.indicators.lib3c_indicators_service
+07-07 15:19:48.608  2552  2570 D 3c.notifications: Got notifications packages: 
+07-07 15:19:48.609  2589  2589 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+07-07 15:19:48.609  2552  2552 W ActionBarDrawerToggle: DrawerToggle may not show up because NavigationIcon is not visible. You may need to call actionbar.setDisplayHomeAsUpEnabled(true);
+07-07 15:19:48.610  2552  2585 D 3c.files: Transforming SD device from /dev/block/by-name/data into /dev/block/sdb3
+07-07 15:19:48.610  2552  2570 D 3c.notifications: Got notifications packages: 
+07-07 15:19:48.611  2552  2552 W 3c.ui   : resume - call_onshow set to fragment xk1{76e44c5} (23e69fbe-f88a-4a02-bc93-0d9dbc4ae5cc)
+07-07 15:19:48.611  2552  2598 W 3c.ui.utils: shortcut initialized  / 109 / Main screen
+07-07 15:19:48.613  2552  2570 E 3c.settings: Prefs prefskey.watch.id default -1
+07-07 15:19:48.615  2552  2570 E 3c.lib  : Received uncaught exception
+07-07 15:19:48.615  2552  2570 E 3c.lib  : java.lang.NoClassDefFoundError: Failed resolution of: Llib3c/service/boot/lib3c_boot_service;
+07-07 15:19:48.615  2552  2570 E 3c.lib  : 	at lib3c.service.tasker.lib3c_task_receiver.a(Unknown Source:156)
+07-07 15:19:48.615  2552  2570 E 3c.lib  : 	at ccc71.at.at_application.a(Unknown Source:260)
+07-07 15:19:48.615  2552  2570 E 3c.lib  : 	at lib3c.application.lib3c_application$a.runThread(Unknown Source:204)
+07-07 15:19:48.615  2552  2570 E 3c.lib  : 	at c.gh2.run(Unknown Source:2)
+07-07 15:19:48.615  2552  2570 E 3c.lib  : Caused by: java.lang.ClassNotFoundException: Didn't find class "lib3c.service.boot.lib3c_boot_service" on path: DexPathList[[zip file "/data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/base.apk"],nativeLibraryDirectories=[/data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86, /data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/base.apk!/lib/x86, /system/lib, /system/vendor/lib]]
+07-07 15:19:48.615  2552  2570 E 3c.lib  : 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:125)
+07-07 15:19:48.615  2552  2570 E 3c.lib  : 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+07-07 15:19:48.615  2552  2570 E 3c.lib  : 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+07-07 15:19:48.615  2552  2570 E 3c.lib  : 	... 4 more
+07-07 15:19:48.616  2552  2582 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:19:48.617  2552  2585 D 3c.control: Checking availability: /sys/devices/virtual/bdi/8:16/read_ahead_kb
+07-07 15:19:48.617  2552  2570 I 3c.lib  : Finished logging uncaught exception
+07-07 15:19:48.619  2552  2585 W 3c.files: Is external SD secure:false
+07-07 15:19:48.619  2552  2585 D 3c.control: Checking availability: /sys/block/sdb/queue/scheduler
+07-07 15:19:48.619  2552  2585 D 3c.control: Checking availability: /sys/module/sync/parameters/fsync_enabled
+07-07 15:19:48.619  2552  2585 D 3c.control: Checking availability: /sys/kernel/dyn_fsync/Dyn_fsync_active
+07-07 15:19:48.619  2552  2585 D 3c.control: Checking availability: /sys/devices/virtual/misc/fsynccontrol/fsync_enabled
+07-07 15:19:48.619  2552  2585 D 3c.control: Checking availability: /sys/class/misc/fsynccontrol/fsync_enabled
+07-07 15:19:48.619  2552  2585 D 3c.control: Checking availability: /sys/android_touch/sweep2wake
+07-07 15:19:48.619  2552  2585 D 3c.control: Checking availability: /sys/devices/virtual/misc/touchwake/enabled
+07-07 15:19:48.619  2552  2585 D 3c.control: Checking availability: /sys/android_key/sweep2wake
+07-07 15:19:48.620  2552  2585 D 3c.control: Checking availability: /sys/android_touch/sweep2sleep
+07-07 15:19:48.620  2552  2585 D 3c.control: Checking availability: /sys/android_key/sweep2sleep
+07-07 15:19:48.620  2552  2585 D 3c.control: Checking availability: /sys/android_touch/doubletap2wake
+07-07 15:19:48.620  2552  2585 D 3c.control: Checking availability: /sys/android_key/doubletap2wake
+07-07 15:19:48.620  2552  2585 D 3c.control: Checking availability: /sys/devices/platform/htc_battery/fast_charge
+07-07 15:19:48.620  2552  2585 D 3c.control: Checking availability: /sys/kernel/fast_charge/force_fast_charge
+07-07 15:19:48.620  2552  2585 I 3c.app.tb: Checking Xposed configuration
+07-07 15:19:48.635  2589  2589 I MultiDex: VM with version 2.1.0 has multidex support
+07-07 15:19:48.635  2589  2589 I MultiDex: Installing application
+07-07 15:19:48.635  2589  2589 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+07-07 15:19:48.644  2589  2589 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+07-07 15:19:48.658  2589  2589 D 3c.explorer: provider.onCreate
+07-07 15:19:48.682  2589  2610 W 3c.settings: Loaded 10 shared preference settings
+07-07 15:19:48.682  2589  2589 W 3c.settings: Loaded 10 shared preference settings
+07-07 15:19:48.682  2589  2589 W 3c.settings: Reloading shared preferences
+07-07 15:19:48.682  2589  2610 W 3c.lib  : Loading exception handler onto file /storage/emulated/0/Android/data/ccc71.at.free/support/crash_reports.txt
+07-07 15:19:48.682  2589  2589 W 3c.settings: Loaded 10 shared preference settings
+07-07 15:19:48.682  2589  2610 E 3c.lib  : Checking isUI thread
+07-07 15:19:48.683  2589  2610 I 3c.lib  : Checking isUI (from AM):false - ccc71.at.free
+07-07 15:19:48.683  2589  2610 W 3c.ui.utils: shortcut initialized  / 0 / empty
+07-07 15:19:48.683  2589  2610 W 3c.ui.utils: Loading language into shortcuts initializer
+07-07 15:19:48.683  2589  2610 W 3c.ui.utils: Loaded language into shortcuts initializer: en_US
+07-07 15:19:48.701  2589  2589 W 3c.settings: Reloading shared preferences
+07-07 15:19:48.701  2589  2589 W 3c.settings: Loaded 10 shared preference settings
+07-07 15:19:48.701  2589  2589 W 3c.notifications: Registering lib3c_notification_timer
+07-07 15:19:48.703  2589  2610 W 3c.lib  : Trying to gain root access, remaining attempts: 1
+07-07 15:19:48.703  2589  2610 W 3c.lib  : Running lib as root: /data/app/ccc71.at.free-T69qXGMfeYinLahOZFBQLg==/lib/x86/liblib3c.so
+07-07 15:19:48.709  2578  2578 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:19:48.713  2589  2589 W 3c.screen: Registered lib3c_screen_receiver (screen true)
+07-07 15:19:48.714  2589  2589 D 3c.notifications: Got notifications packages: 
+07-07 15:19:48.714  2589  2589 W 3c.screen: UNregistered lib3c_screen_receiver
+07-07 15:19:48.714  2589  2589 W 3c.notifications: Unregistering lib3c_notification_timer - not needed
+07-07 15:19:48.714  2589  2589 D 3c.notifications: Got notifications packages: 
+07-07 15:19:48.720  2589  2589 D 3c.notifications: Got notifications packages: 
+07-07 15:19:48.725  2552  2556 I zygote  : Do partial code cache collection, code=15KB, data=26KB
+07-07 15:19:48.725  2552  2556 I zygote  : After code cache collection, code=15KB, data=26KB
+07-07 15:19:48.725  2552  2556 I zygote  : Increasing code cache capacity to 128KB
+07-07 15:19:48.753  2589  2610 W 3c.lib  : Got root access, resetting attempts
+07-07 15:19:48.760  2589  2610 W 3c.app.tb: Removing shortcut Usage: API != 22
+07-07 15:19:48.761  2589  2610 W 3c.app.tb: Removing shortcut Optimization: API != 23
+07-07 15:19:48.773  2578  2578 W /system/bin/app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:19:48.775  2578  2578 I /system/bin/app_process: The ClassLoaderContext is a special shared library.
+07-07 15:19:48.777  2589  2610 W 3c.app.tb: Removing shortcut Graphics: API != 23
+07-07 15:19:48.778  2589  2610 W 3c.app.tb: Removing shortcut Wi-Fi AP: API < 23
+07-07 15:19:48.795  2589  2610 W 3c.app.tb: Removing shortcut GPU: no GPU
+07-07 15:19:48.797  2589  2600 W 3c.db   : c.of2.close() was never called to clean-up resources
+07-07 15:19:48.797  2589  2600 W 3c.db   : java.lang.Exception: Process has leaked c.of2
+07-07 15:19:48.797  2589  2600 W 3c.db   : 	at c.e82.<init>(Unknown Source:32)
+07-07 15:19:48.797  2589  2600 W 3c.db   : 	at c.of2.<init>(Unknown Source:7)
+07-07 15:19:48.797  2589  2600 W 3c.db   : 	at c.nf2.u(Unknown Source:17)
+07-07 15:19:48.797  2589  2600 W 3c.db   : 	at c.nf2.H(Unknown Source:0)
+07-07 15:19:48.797  2589  2600 W 3c.db   : 	at lib3c.application.lib3c_application$a.runThread(Unknown Source:17)
+07-07 15:19:48.797  2589  2600 W 3c.db   : 	at c.gh2.run(Unknown Source:2)
+07-07 15:19:48.799  2552  2552 W 3c.ui.utils: Finishing init...
+07-07 15:19:48.800  2589  2610 W 3c.app.tb: Removing shortcut Times: no TIMES
+07-07 15:19:48.800  2552  2552 D 3c.ui.utils: lib3c_ui_utils.initInApps
+07-07 15:19:48.802  2589  2610 D 3c.control: max_cpu Read valid core for max cpu
+07-07 15:19:48.802  2552  2552 D 3c.ui.utils: at_activity.initInAppPurchase(false);
+07-07 15:19:48.804  2589  2610 D 3c.control: max_cpu Read valid core: 0-3
+07-07 15:19:48.804  2589  2610 D 3c.control: max_cpu Read single core: 0 from 0
+07-07 15:19:48.804  2589  2610 D 3c.control: max_cpu Read single core: 3 from 3
+07-07 15:19:48.804  2552  2552 I zygote  : Deoptimizing boolean androidx.appcompat.widget.TintContextWrapper.shouldWrap(android.content.Context) due to JIT inline cache
+07-07 15:19:48.805  2552  2552 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:48.805  2589  2610 W 3c.app.tb: Removing shortcut Voltage: no VOLTAGE
+07-07 15:19:48.806  2552  2552 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:48.807  2578  2578 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+07-07 15:19:48.807  2589  2610 W 3c.app.tb: Removing shortcut Thermal: no THERMAL
+07-07 15:19:48.808  2589  2610 W 3c.app.tb: Removing shortcut MPDecision: no MP
+07-07 15:19:48.810  2589  2610 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_r
+07-07 15:19:48.811  2589  2610 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_g
+07-07 15:19:48.811  2589  2610 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_b
+07-07 15:19:48.811  2589  2610 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/kgamma_ctrl
+07-07 15:19:48.811  2589  2610 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal
+07-07 15:19:48.811  2589  2610 D 3c.control: Checking availability: /sys/devices/platform/kcal_ctrl.0/kcal_ctrl
+07-07 15:19:48.811  2589  2610 D 3c.control: Checking availability: /sys/devices/platform/mipi_lgit.1537/refresh_screen
+07-07 15:19:48.811  2589  2610 D 3c.control: Checking availability: /sys/class/misc/colorcontrol/multiplier_disabled
+07-07 15:19:48.811  2589  2610 W 3c.app.tb: Removing shortcut Gamma: no GAMMA
+07-07 15:19:48.812  2589  2610 D 3c.control: Checking availability: /sys/kernel/sound_control/cam_mic_gain
+07-07 15:19:48.812  2589  2610 D 3c.control: Checking availability: /sys/kernel/sound_control/headphone_gain
+07-07 15:19:48.812  2589  2610 D 3c.control: Checking availability: /sys/kernel/sound_control/mic_gain
+07-07 15:19:48.812  2589  2610 D 3c.control: Checking availability: /sys/kernel/sound_control/speaker_gain
+07-07 15:19:48.812  2589  2610 D 3c.control: Checking availability: /sys/kernel/sound_control/gpl_sound_control_locked
+07-07 15:19:48.812  2589  2610 W 3c.app.tb: Removing shortcut Sound: no SOUND
+07-07 15:19:48.815  2552  2556 I zygote  : Do partial code cache collection, code=59KB, data=54KB
+07-07 15:19:48.815  2552  2556 I zygote  : After code cache collection, code=58KB, data=54KB
+07-07 15:19:48.815  2552  2556 I zygote  : Increasing code cache capacity to 256KB
+07-07 15:19:48.819  2589  2610 W 3c.ui.utils: Done initializing shortcuts
+07-07 15:19:48.822  2589  2610 D 3c.processes: Loaded known list: 1
+07-07 15:19:48.826  2589  2610 D 3c.processes: Got 1 excluded processes
+07-07 15:19:48.826  2589  2610 D 3c.processes: Loaded excluded list: 1
+07-07 15:19:48.826  2589  2610 D 3c.widgets: Enumerating existing widgets...
+07-07 15:19:48.836  2589  2610 D 3c.widgets: Recovered 0 widget(s)
+07-07 15:19:48.836  2589  2610 W 3c.widgets: has refreshable widgets: false
+07-07 15:19:48.842  2589  2589 W 3c.widgets: has refreshable widgets: false
+07-07 15:19:48.842  2589  2589 I 3c.widgets: Widgets service started but not needed!
+07-07 15:19:48.843  2589  2589 W 3c.widgets: has refreshable widgets: false
+07-07 15:19:48.850  2578  2578 D AndroidRuntime: Shutting down VM
+07-07 15:19:48.896   529   553 I ActivityManager: Displayed ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs: +346ms (total +472ms)
+07-07 15:19:48.899  2620  2620 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+07-07 15:19:48.900  1206  1295 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+07-07 15:19:48.947  2620  2620 W /system/bin/app_process: Unexpected CPU variant for X86 using defaults: x86
+07-07 15:19:48.948  2620  2620 I /system/bin/app_process: The ClassLoaderContext is a special shared library.
+07-07 15:19:48.957  2620  2620 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+07-07 15:19:48.973  2620  2620 D AndroidRuntime: Shutting down VM
+07-07 15:19:49.106  2552  2552 D 3c.ui   : Trying to set icons visible in menu
+07-07 15:19:49.776   475   475 I android.hardwar: type=1400 audit(0.0:1549): avc: denied { write } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+07-07 15:19:49.776   475   475 I android.hardwar: type=1400 audit(0.0:1550): avc: denied { nlmsg_read } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+07-07 15:19:49.776   475   475 I android.hardwar: type=1400 audit(0.0:1551): avc: denied { read } for scontext=u:r:hal_wifi_default:s0 tcontext=u:r:hal_wifi_default:s0 tclass=netlink_route_socket permissive=1
+07-07 15:19:50.340   476   476 I batteryd: type=1400 audit(0.0:1552): avc: denied { read } for name="capacity" dev="sysfs" ino=3641 scontext=u:r:batteryd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+07-07 15:19:50.340   476   476 I batteryd: type=1400 audit(0.0:1553): avc: denied { open } for path="/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/PNP0C0A:00/power_supply/BAT0/capacity" dev="sysfs" ino=3641 scontext=u:r:batteryd:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=1
+07-07 15:19:50.340   510   510 I healthd : type=1400 audit(0.0:1554): avc: denied { read } for name="capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:19:50.340   510   510 I healthd : type=1400 audit(0.0:1555): avc: denied { open } for path="/dev/pipe/battery/BAT0/capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:19:50.340   510   510 I healthd : type=1400 audit(0.0:1556): avc: denied { getattr } for path="/dev/pipe/battery/BAT0/capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:19:52.004   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@65611e6
+07-07 15:19:52.019   482   482 D SurfaceFlinger: duplicate layer name: changing Toast to Toast#1
+07-07 15:19:52.218   529   650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-07 15:19:54.009   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@67c9b9c
+07-07 15:19:54.012  1656  2210 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:19:54.716  2589  2643 D ProfileInstaller: Skipping profile installation for ccc71.at.free
+07-07 15:19:56.015   529   529 W WindowManager: removeWindowToken: Attempted to remove non-existing token: android.os.Binder@b24b85d
+07-07 15:19:56.017  1656  2210 E eglCodecCommon: goldfish_dma_create_region: could not obtain fd to device! fd -1 errno=2
+07-07 15:19:57.832   378   378 I hostapd : type=1400 audit(0.0:1557): avc: denied { read } for scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=netlink_generic_socket permissive=1
+07-07 15:19:57.832   378   378 I hostapd : type=1400 audit(0.0:1558): avc: denied { write } for scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=netlink_generic_socket permissive=1
+07-07 15:19:57.832   378   378 I hostapd : type=1400 audit(0.0:1559): avc: denied { net_admin } for capability=12 scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=capability permissive=1
+07-07 15:20:00.003   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:20:00.003   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:20:02.757   529   864 D SntpClient: request time failed: java.net.SocketTimeoutException: Poll timed out
+07-07 15:20:13.707   529  1162 I ActivityManager: Force stopping ccc71.at.free appid=10068 user=0: from pid 2648
+07-07 15:20:13.708   529  1162 I ActivityManager: Killing 2552:ccc71.at.free:ui/u0a68 (adj 0): stop ccc71.at.free
+07-07 15:20:13.708   529  1162 W ActivityManager: Force removing ActivityRecord{9fde327 u0 ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs t11}: app died, no saved state
+07-07 15:20:13.708   529   548 W system_server: kill(-2552, 9) failed: No such process
+07-07 15:20:13.710   529  1162 I WindowManager: Failed to capture screenshot of Token{379c9d4 ActivityRecord{9fde327 u0 ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs t11 f}} appWin=Window{45351ca u0 ccc71.at.free/ccc71.at.activities.easy_tabs.at_easy_tabs} drawState=4
+07-07 15:20:13.714   529  1162 I ActivityManager: Killing 2589:ccc71.at.free/u0a68 (adj 900): stop ccc71.at.free
+07-07 15:20:13.716   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:20:13.716   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:20:13.718   868   868 D CarrierSvcBindHelper: No carrier app for: 0
+07-07 15:20:13.732   529   553 W ActivityManager: setHasOverlayUi called on unknown pid: 2552
+07-07 15:20:13.752   529   548 W system_server: kill(-2552, 9) failed: No such process
+07-07 15:20:13.752   529   548 I system_server: Successfully killed process cgroup uid 10068 pid 2552 in 43ms
+07-07 15:20:13.752   529   548 W system_server: kill(-2589, 9) failed: No such process
+07-07 15:20:13.752   529   548 I system_server: Successfully killed process cgroup uid 10068 pid 2589 in 0ms
+07-07 15:20:13.796   461   461 I local_opengl: type=1400 audit(0.0:1560): avc: denied { write } for laddr=192.168.56.102 lport=22468 faddr=192.168.56.1 fport=45402 scontext=u:r:local_opengl:s0 tcontext=u:r:local_opengl:s0 tclass=tcp_socket permissive=1
+07-07 15:20:13.796   461   461 I local_opengl: type=1400 audit(0.0:1561): avc: denied { read } for laddr=192.168.56.102 lport=22468 faddr=192.168.56.1 fport=45402 scontext=u:r:local_opengl:s0 tcontext=u:r:local_opengl:s0 tclass=tcp_socket permissive=1
+07-07 15:20:14.334  1206  1295 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+07-07 15:20:15.832   238   238 E adbd    : failed to connect to socket 'tcp:27042': Connection refused
+07-07 15:20:16.751   529   650 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-07 15:20:33.806  1417  1876 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+07-07 15:20:33.807  1417  1417 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+07-07 15:20:33.808  1417  1417 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+07-07 15:20:33.809   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:20:33.809  1417  1417 I Dialer  : VvmTaskReceiver - task received
+07-07 15:20:33.809   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:20:33.809  1417  1417 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+07-07 15:20:33.810  1417  1417 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+07-07 15:20:33.810  1417  1417 I Dialer  : RetryPolicy - retry #4 for com.android.voicemail.impl.ActivationTask@a8f18f2 queued, executing in 5000
+07-07 15:20:33.810  1417  1417 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@a8f18f2 added
+07-07 15:20:33.810  1417  1417 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+07-07 15:20:33.810  1417  1417 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+07-07 15:20:33.825   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:20:33.825   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:20:38.852  1417  1876 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@a8f18f2
+07-07 15:20:38.852  1417  1876 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [5fef04621e9a9b41849c3df35e75799299008300], UserHandle{0} already migrated
+07-07 15:20:38.877  1417  1876 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+07-07 15:20:38.878  1417  1876 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+07-07 15:20:38.886  1417  1876 I Dialer  : TelephonyMangerCompat.setVisualVoicemailSmsFilterSettings - using TelephonyManager
+07-07 15:20:38.887  1417  1876 I Dialer  : TelephonyMangerCompat.sendVisualVoicemailSms - using TelephonyManager
+07-07 15:20:38.891   499  1710 D baseband-sms: newsms
+07-07 15:20:38.891   499  1710 D baseband-sms: sender:(N/A)
+07-07 15:20:38.891   499  1710 D baseband-sms: receiver:122
+07-07 15:20:38.891   499  1710 D baseband-sms: index:1/1
+07-07 15:20:38.891   499  1710 D baseband-sms: txt:'FQKf.Î£:etÎ”#W'
+07-07 15:20:38.884   217   217 I redis   : type=1400 audit(0.0:1562): avc: denied { read } for path="socket:[15523]" dev="sockfs" ino=15523 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:20:38.888   217   217 I redis   : type=1400 audit(0.0:1563): avc: denied { write } for path="socket:[15523]" dev="sockfs" ino=15523 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:20:38.982   529  2539 I ActivityManager: Force stopping ccc71.at.free appid=10068 user=0: from pid 2664
+07-07 15:20:38.984   868   868 D CarrierSvcBindHelper: No carrier app for: 0
+07-07 15:20:51.737   238   238 E adbd    : failed to connect to socket 'tcp:27042': Connection refused
+07-07 15:20:52.808   378   378 I hostapd : type=1400 audit(0.0:1564): avc: denied { read } for scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=netlink_generic_socket permissive=1
+07-07 15:20:52.808   378   378 I hostapd : type=1400 audit(0.0:1565): avc: denied { write } for scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=netlink_generic_socket permissive=1
+07-07 15:21:09.372  2378  2378 I CLIPDUMP-INFO-LOG: Error Connecting to Frida
+07-07 15:21:09.368   217   217 I redis   : type=1400 audit(0.0:1566): avc: denied { accept } for lport=6379 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:21:09.368   217   217 I redis   : type=1400 audit(0.0:1567): avc: denied { write } for name="fwmarkd" dev="tmpfs" ino=11446 scontext=u:r:redis:s0 tcontext=u:object_r:fwmarkd_socket:s0 tclass=sock_file permissive=1
+07-07 15:21:09.368   217   217 I redis   : type=1400 audit(0.0:1568): avc: denied { connectto } for path="/dev/socket/fwmarkd" scontext=u:r:redis:s0 tcontext=u:r:netd:s0 tclass=unix_stream_socket permissive=1
+07-07 15:21:09.368   229   229 I netd    : type=1400 audit(0.0:1569): avc: denied { use } for path="socket:[33379]" dev="sockfs" ino=33379 scontext=u:r:netd:s0 tcontext=u:r:redis:s0 tclass=fd permissive=1
+07-07 15:21:09.368   229   229 I netd    : type=1400 audit(0.0:1570): avc: denied { read write } for path="socket:[33379]" dev="sockfs" ino=33379 scontext=u:r:netd:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:21:09.368   229   229 I netd    : type=1400 audit(0.0:1571): avc: denied { getopt } for laddr=127.0.0.1 lport=6379 faddr=127.0.0.1 fport=49144 scontext=u:r:netd:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:21:09.368   229   229 I netd    : type=1400 audit(0.0:1572): avc: denied { setopt } for laddr=127.0.0.1 lport=6379 faddr=127.0.0.1 fport=49144 scontext=u:r:netd:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:21:09.368   217   217 I redis   : type=1400 audit(0.0:1573): avc: denied { setopt } for laddr=127.0.0.1 lport=6379 faddr=127.0.0.1 fport=49144 scontext=u:r:redis:s0 tcontext=u:r:redis:s0 tclass=tcp_socket permissive=1
+07-07 15:21:14.344   510   510 I healthd : type=1400 audit(0.0:1574): avc: denied { read } for name="capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:21:14.344   510   510 I healthd : type=1400 audit(0.0:1575): avc: denied { open } for path="/dev/pipe/battery/BAT0/capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:21:14.344   510   510 I healthd : type=1400 audit(0.0:1576): avc: denied { getattr } for path="/dev/pipe/battery/BAT0/capacity" dev="fuse" ino=8 scontext=u:r:healthd:s0 tcontext=u:object_r:fuse:s0 tclass=file permissive=1
+07-07 15:21:21.691   529   545 I GnssLocationProvider: WakeLock acquired by handleInjectNtpTime()
+07-07 15:21:26.699   529  2678 D SntpClient: request time failed: java.net.SocketTimeoutException: Poll timed out
+07-07 15:21:26.699   529  2678 E GnssLocationProvider: requestTime failed
+07-07 15:21:26.699   529  2678 I GnssLocationProvider: WakeLock acquired by sendMessage(INJECT_NTP_TIME_FINISHED, 0, null)
+07-07 15:21:26.699   529  2678 I GnssLocationProvider: WakeLock released by handleInjectNtpTime()
+07-07 15:21:26.699   529   545 I GnssLocationProvider: WakeLock released by handleMessage(INJECT_NTP_TIME_FINISHED, 0, null)
+07-07 15:21:32.741   529   545 E memtrack: Couldn't load memtrack module
+07-07 15:21:32.741   529   545 W android.os.Debug: failed to get memory consumption info: -1
+07-07 15:21:33.004   378   378 I hostapd : type=1400 audit(0.0:1577): avc: denied { net_admin } for capability=12 scontext=u:r:execns:s0 tcontext=u:r:execns:s0 tclass=capability permissive=1
+07-07 15:21:37.079   529  2539 D WificondControl: Scan result ready event
+07-07 15:21:38.925  1417  1876 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+07-07 15:21:38.925  1417  1417 I Dialer  : RetryPolicy - Retry limit for com.android.voicemail.impl.ActivationTask@a8f18f2 reached
+07-07 15:21:38.925  1417  1417 I Dialer  : RetryPolicy - committing deferred status: configuration_state=4
+07-07 15:21:38.938  1417  1417 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+07-07 15:21:43.978  1417  1417 I Dialer  : VvmTaskExecutor - Stopping service
+07-07 15:21:43.979  1417  1417 I Dialer  : VvmTaskExecutor - finishing Job
+07-07 15:21:43.979  1417  1417 I Dialer  : TaskSchedulerJobService - finishing job
+07-07 15:21:43.981  1417  1417 I Dialer  : JobFinishedPoller.run - Job finished
+07-07 15:21:43.981  1417  1417 I Dialer  : VvmTaskExecutor - terminated
