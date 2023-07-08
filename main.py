@@ -47,6 +47,7 @@ def get_pdf():
         f.write(response.content)
     return jsonify({"Response": "PDF saved."})
 
+
 if __name__ == '__main__':
     connection = sqlite3.connect("data.db")
     cursor = connection.cursor()
