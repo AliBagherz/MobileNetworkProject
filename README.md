@@ -1,2 +1,4 @@
-# MobileNetworkProject
-This repository is responsible for mobile network project of Ali Bagherzadeh and Seyed Mehdi Mostafavi
+# نحوه‌ی کار 
+
+---
+در مرحله‌ی اول این پروژه با گرفتن نام پکیج یک اپلیکیشن اندروید نسبت به دانلود آن اقدام می‌کند و آن را در پوشه‌ی output ذخیره می‌کند.
